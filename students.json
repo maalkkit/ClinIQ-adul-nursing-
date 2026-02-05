@@ -31,6 +31,270 @@
       "cohort": "Adult Nursing Y2",
       "password_sha256": "e6cb826ad37be1891e5bc84646ff111f46e8b499b2a50856867072e2632476d0",
       "created_at": "2026-02-01T22:11:58.354627"
+    },
+    {
+      "username": "Gr001",
+      "display_name": "Student 001",
+      "student_id": "001",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "cae0549934479a4930fe3d821c0a60c0eeb144e3590379b140e5c5d2219071ba",
+      "created_at": "2026-02-05T07:01:04.981118"
+    },
+    {
+      "username": "Gg001",
+      "display_name": "Student 001",
+      "student_id": "001",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "b5d3549041144314ddae101a3f9293ade2f6e06e1242cbd6038caf8adc4ac037",
+      "created_at": "2026-02-05T07:01:23.169666"
+    },
+    {
+      "username": "student1",
+      "display_name": "Student 1",
+      "student_id": "1",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "bc3ffb29636197c84490bb733125b31f9cd4b9c477b71e49971ec9eeb1c6f83d",
+      "created_at": "2026-02-05T07:08:14.540200"
+    },
+    {
+      "username": "Gst001",
+      "display_name": "Student 001",
+      "student_id": "001",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "ef5dc204f22306b079f9bb0b524e72a97aba6a1898423c01f675f4912206fef7",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst002",
+      "display_name": "Student 002",
+      "student_id": "002",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "6c8a2f76c9a298427875b2c4c16b493f9865ed00873a23053da2ecd09728de79",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst003",
+      "display_name": "Student 003",
+      "student_id": "003",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "fb63f6002b99a8425629363e02c97c96ec89acb8e36653f01f869b081109b0c2",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst004",
+      "display_name": "Student 004",
+      "student_id": "004",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "9e083474eab1a4ebb8cadfacb26ce5dd61166a7afa29a0aa67531dd1e23ae97b",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst005",
+      "display_name": "Student 005",
+      "student_id": "005",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "8e13034f16b16be4a9c452622184e0b555d4b28b6a1900d9cfa97dfd648d1dae",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst006",
+      "display_name": "Student 006",
+      "student_id": "006",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "be09f64678e0216b691bd0f126138d449f477bbbd03c3c7d8144e00999046d51",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst007",
+      "display_name": "Student 007",
+      "student_id": "007",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "dfe32b25d640a5208765029c2014ed53b67fd30e776b7fe03f36a4a2656d1130",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst008",
+      "display_name": "Student 008",
+      "student_id": "008",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "e93ccfcfd45e2cf3b849f1362d57e0566f6753f2da3e80a29f8902d9b9e77b03",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst009",
+      "display_name": "Student 009",
+      "student_id": "009",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "250c73e6941bf388d7fcca7b89abe6ce538d7db9f9b050d5bcb9caa021d2c1fc",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst010",
+      "display_name": "Student 010",
+      "student_id": "010",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "957f9eefb46246f9e0a173e5cb48c499bf2f0f48e30e391d138d8a900e734f79",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst011",
+      "display_name": "Student 011",
+      "student_id": "011",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "1d42acf35cca9adb366c259fb503940a8f0b8cf5617d2ab5ffb9d9f95ad49109",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst012",
+      "display_name": "Student 012",
+      "student_id": "012",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "54716a22b41e7ae7fcba3db13c2f7556cd37db6cf6b4f934df43255a9a789907",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst013",
+      "display_name": "Student 013",
+      "student_id": "013",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "e15eebb9f075620ed7404c150d07f7554d2454733a5ca19f410c884455b3bba0",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst014",
+      "display_name": "Student 014",
+      "student_id": "014",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "4b70a2d193618fd1957b297b7925552eb07a275704406b4c4516625059874f17",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst015",
+      "display_name": "Student 015",
+      "student_id": "015",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "6182a3292f5188cd7295d62751729e627ab001cf03e71299b90c81e6e2416a4b",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst016",
+      "display_name": "Student 016",
+      "student_id": "016",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "53a1538fe176b499d7b2d7ab01a99c8f8a90a936d32cb23cd9b542fcd9df28ac",
+      "created_at": "2026-02-05T07:16:55.707318"
+    },
+    {
+      "username": "Gst017",
+      "display_name": "Student 017",
+      "student_id": "017",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "989d2856cfe6a74c0d5ed64a282a62b571e981101215b5abf30461065d836655",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst018",
+      "display_name": "Student 018",
+      "student_id": "018",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "8003a7cd36c62c3cacd4b8aa981504089c514431d2eb25433ec4e01701099b55",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst019",
+      "display_name": "Student 019",
+      "student_id": "019",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "8411a94e32ef0b12d9cfca92230b3d24e5079c9a7dfccb61db5c0113311e3eef",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst020",
+      "display_name": "Student 020",
+      "student_id": "020",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "a1e32fd9712d0666ef76705b131c856b95aac88687ed378a3dff190332233b79",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst021",
+      "display_name": "Student 021",
+      "student_id": "021",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "5db1250bff3eaa02a95f1aaccf5a6d943f599b05cdce75a8ad06072d7a6b5c2e",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst022",
+      "display_name": "Student 022",
+      "student_id": "022",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "6a3d1fe3abe7c7c3e541c4fc5086b1c4af11b9295a8e64f5842ef3ceeb7d5bd3",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst023",
+      "display_name": "Student 023",
+      "student_id": "023",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "7e644b778b5a08ecc5677112320a34fecd8c200cd05bb01bba307fcab8097865",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst024",
+      "display_name": "Student 024",
+      "student_id": "024",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "c86aeb013f28a4246edefaa7ba89322393991d87de8988e947548f20c666d2a7",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst025",
+      "display_name": "Student 025",
+      "student_id": "025",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "553ec33f277b6b57bcfa0599e94b746fcb447506c5e92bc461b0259808c7a69a",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst026",
+      "display_name": "Student 026",
+      "student_id": "026",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "dcb8308e48f648510a229c72b3b75307deff7f5f2e331f161ea41c68de170877",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst027",
+      "display_name": "Student 027",
+      "student_id": "027",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "1f980da8a032bbf050a3624aa7b18207b42f7ee7a84b7018c6cab318956aab04",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst028",
+      "display_name": "Student 028",
+      "student_id": "028",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "8587191bab3a9c2d18e7db3f694f030b2956b9f1db8dc01f162c3773ab54eab2",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst029",
+      "display_name": "Student 029",
+      "student_id": "029",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "deb8464d6b7c850377f03668ef4cf0c00d50a0a93b4bebb7efcfc637361bcbe7",
+      "created_at": "2026-02-05T07:16:55.708333"
+    },
+    {
+      "username": "Gst030",
+      "display_name": "Student 030",
+      "student_id": "030",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "e7ee2813dd639e0279d2595fb5e1f115124b136092e4b35a95c0819a487d149e",
+      "created_at": "2026-02-05T07:16:55.708333"
     }
   ]
 }
