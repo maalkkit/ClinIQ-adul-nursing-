@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-01-13 02:11:26",
+  "min_attempts_per_item": 2,
+  "min_items_intersection": 2,
+  "rows": [
+    {
+      "case_id": "adult_acs_01",
+      "attempts_with_item_details": 1,
+      "items_reported(>=min_attempts)": 0,
+      "kr20_intersection": null,
+      "k_items_intersection": 0
+    },
+    {
+      "case_id": "adult_dka_01",
+      "attempts_with_item_details": 0,
+      "items_reported(>=min_attempts)": 0,
+      "kr20_intersection": null,
+      "k_items_intersection": 0
+    },
+    {
+      "case_id": "adult_htn_emerg_01",
+      "attempts_with_item_details": 12,
+      "items_reported(>=min_attempts)": 58,
+      "kr20_intersection": null,
+      "k_items_intersection": 0
+    },
+    {
+      "case_id": "adult_sepsis_01",
+      "attempts_with_item_details": 2,
+      "items_reported(>=min_attempts)": 0,
+      "kr20_intersection": null,
+      "k_items_intersection": 0
+    }
+  ]
+}

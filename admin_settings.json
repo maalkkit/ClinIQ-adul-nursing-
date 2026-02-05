@@ -1,0 +1,41 @@
+{
+  "app_mode": "Exam",
+  "ai_enabled": true,
+  "ai_debrief_enabled": true,
+  "ai_model": "gpt-5.2",
+  "research_mode": false,
+  "intro_videos": {
+    "adult_asthma_01": {
+      "path": "case_videos\\adult_asthma_01.mp4",
+      "require_watch": true
+    },
+    "adult_brady_01": {
+      "path": "case_videos\\adult_brady_01.mp4",
+      "require_watch": true
+    },
+    "adult_acs_01": {
+      "path": "case_videos\\adult_acs_01.mp4",
+      "require_watch": true
+    },
+    "adult_copd_01": {
+      "path": "case_videos\\adult_copd_01.mp4",
+      "require_watch": true
+    },
+    "adult_sepsis_01": {
+      "path": "case_videos\\adult_sepsis_01.mp4",
+      "require_watch": true
+    },
+    "adult_chf_01": {
+      "path": "case_videos\\adult_chf_01.mp4",
+      "require_watch": true
+    },
+    "adult_dka_01": {
+      "path": "case_videos\\adult_dka_01.mp4",
+      "require_watch": true
+    },
+    "adult_htn_emerg_01": {
+      "path": "case_videos\\adult_htn_emerg_01.mp4",
+      "require_watch": true
+    }
+  }
+}

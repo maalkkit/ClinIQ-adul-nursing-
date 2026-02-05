@@ -1,0 +1,3059 @@
+[
+  {
+    "id": "adult_htn_emerg_01",
+    "title": "Hypertensive Emergency – Severe Headache and Visual Changes",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Cardiac",
+    "setting": "ER",
+    "patient": {
+      "age": 52,
+      "sex": "F"
+    },
+    "chiefComplaint": "Severe headache and blurry vision",
+    "history": {
+      "pmh": [
+        "HTN (poor adherence)"
+      ],
+      "meds": [
+        "Stopped BP meds 2 weeks ago"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "36.8°C",
+      "HR": "98",
+      "RR": "20",
+      "BP": "224/128",
+      "SpO2": "98% RA"
+    },
+    "findings": [
+      "Severe headache 9/10",
+      "Blurry vision",
+      "Nausea",
+      "Anxious"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize hypertensive emergency with symptoms (end-organ risk)",
+        "Urgent escalation + continuous monitoring",
+        "Prepare for ordered evaluation/treatment"
+      ],
+      "keyAssessments": [
+        "Neuro: LOC, weakness, speech changes, headache characteristics",
+        "Cardiac: chest pain/SOB, rhythm monitoring",
+        "Medication adherence and baseline BP if known"
+      ],
+      "interventions": [
+        "Notify provider urgently; continuous monitoring; obtain ECG per protocol",
+        "Reduce stimulation; safe environment; IV access + prepare ordered labs",
+        "Monitor for neuro changes/chest pain; do not advise rapid BP lowering without orders"
+      ],
+      "reassessment": [
+        "Frequent BP and neuro reassessment per protocol",
+        "Monitor for deterioration: confusion, weakness, chest pain, SOB",
+        "Document BP trends and symptom changes with time"
+      ],
+      "sbar": {
+        "S": "52F severe headache and blurry vision with BP 224/128.",
+        "B": "Known HTN, stopped meds 2 weeks ago.",
+        "A": "Severe hypertension with concerning symptoms—possible end-organ involvement.",
+        "R": "Urgent provider review, monitoring, ECG/labs, and management orders per hypertensive emergency pathway."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Neuro: LOC, weakness, speech changes, headache characteristics",
+          "Cardiac: chest pain/SOB, rhythm monitoring",
+          "Medication adherence and baseline BP if known",
+          "12-lead ECG",
+          "Continuous cardiac monitor",
+          "Chest pain (OPQRST)",
+          "Dyspnea / work of breathing",
+          "Perfusion (cap refill, skin temp, pulses)",
+          "BP/HR trend review",
+          "Orthostatic vitals",
+          "Medication review (beta blocker/CCB/ACEi/diuretics)",
+          "Troponin (if ordered)",
+          "Electrolytes (K+, Mg2+)",
+          "Blood glucose (hypoglycemia can mimic)",
+          "Fluid status (I&O, edema)"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize hypertensive emergency with symptoms (end-organ risk)",
+          "Urgent escalation + continuous monitoring",
+          "Prepare for ordered evaluation/treatment",
+          "Assess hemodynamic stability/perfusion",
+          "Obtain ECG / rhythm identification",
+          "Oxygenation support if hypoxic",
+          "Pain control/comfort measures (as ordered)",
+          "IV access + monitoring",
+          "Identify reversible causes (meds, electrolytes)",
+          "Screen for ACS/ischemia pathway",
+          "Fall precautions/safety",
+          "Notify provider/rapid response criteria"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Notify provider urgently; continuous monitoring; obtain ECG per protocol",
+          "Reduce stimulation; safe environment; IV access + prepare ordered labs",
+          "Monitor for neuro changes/chest pain; do not advise rapid BP lowering without orders",
+          "Position for comfort (upright if SOB)",
+          "Apply oxygen if indicated per protocol",
+          "Place on continuous cardiac monitoring",
+          "Obtain 12-lead ECG per protocol",
+          "Establish IV access",
+          "Prepare ordered labs (troponin/electrolytes)",
+          "Notify provider urgently / activate pathway",
+          "Maintain safe environment / fall precautions",
+          "Prepare for ordered meds (rate control, antihypertensive drip, etc.)",
+          "Avoid advising rapid BP lowering without orders",
+          "Reassure/calm patient, reduce stimulation",
+          "Strict I&O if fluid issue suspected"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Frequent BP and neuro reassessment per protocol",
+          "Monitor for deterioration: confusion, weakness, chest pain, SOB",
+          "Document BP trends and symptom changes with time",
+          "Repeat BP/HR trends",
+          "Monitor chest pain response",
+          "Monitor rhythm changes on monitor",
+          "Assess perfusion (LOC, cap refill, urine output)",
+          "Recheck SpO2/resp effort",
+          "Reassess dizziness/syncope symptoms",
+          "Monitor for hypotension after interventions",
+          "Review ECG changes if repeated",
+          "Repeat neuro check if hypertensive emergency"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "52 F",
+      "system": "Cardiac",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Severe headache and blurry vision",
+      "history": "HTN (poor adherence) Stopped BP meds 2 weeks ago NKDA",
+      "vitals": "{\"T\": \"36.8°C\", \"HR\": \"98\", \"RR\": \"20\", \"BP\": \"224/128\", \"SpO2\": \"98% RA\"}",
+      "findings": "Severe headache 9/10; Blurry vision; Nausea; Anxious"
+    },
+    "scenario_text": "A 52-year-old female presents to the emergency department complaining of severe headache and blurry vision. She reports severe headache 9/10; blurry vision; nausea; anxious. She has a history of HTN (poor adherence); current/recent medications include Stopped BP meds 2 weeks ago; allergies: NKDA. On arrival, vital signs show BP 224/128, HR 98, RR 20, temperature 36.8°C, oxygen saturation 98% RA. During assessment, she appears uncomfortable and anxious and states her symptoms are concerning."
+  },
+  {
+    "id": "adult_acs_01",
+    "title": "Acute Coronary Syndrome – Crushing Chest Pain",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Cardiac",
+    "setting": "ER",
+    "patient": {
+      "age": 60,
+      "sex": "M"
+    },
+    "chiefComplaint": "Crushing chest pain radiating to left arm",
+    "history": {
+      "pmh": [
+        "HTN",
+        "Type 2 Diabetes"
+      ],
+      "meds": [
+        "Metformin",
+        "Amlodipine"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "36.7°C",
+      "HR": "104",
+      "RR": "22",
+      "BP": "158/96",
+      "SpO2": "92% RA"
+    },
+    "findings": [
+      "Diaphoretic",
+      "Anxious",
+      "Nausea"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize possible myocardial ischemia",
+        "Rapid pain/ABC assessment + oxygenation",
+        "Immediate escalation and cardiac monitoring"
+      ],
+      "keyAssessments": [
+        "Pain (OPQRST), onset/time",
+        "SpO2/respiratory distress",
+        "Rhythm + perfusion signs"
+      ],
+      "interventions": [
+        "Apply oxygen if indicated; position for comfort",
+        "Place on monitor; obtain ECG per protocol",
+        "Notify provider urgently; prepare IV access/labs per orders"
+      ],
+      "reassessment": [
+        "Reassess pain + vitals within minutes",
+        "Monitor for ECG changes, hypotension, worsening SOB"
+      ],
+      "sbar": {
+        "S": "60M crushing chest pain radiating to left arm, SpO2 92% RA.",
+        "B": "HTN and T2DM.",
+        "A": "Concerning for ACS; diaphoretic and anxious.",
+        "R": "Urgent provider review, ECG/monitoring, and ACS pathway orders."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Pain (OPQRST), onset/time",
+          "SpO2/respiratory distress",
+          "Rhythm + perfusion signs",
+          "12-lead ECG",
+          "Continuous cardiac monitor",
+          "Chest pain (OPQRST)",
+          "Dyspnea / work of breathing",
+          "Perfusion (cap refill, skin temp, pulses)",
+          "BP/HR trend review",
+          "Orthostatic vitals",
+          "Medication review (beta blocker/CCB/ACEi/diuretics)",
+          "Troponin (if ordered)",
+          "Electrolytes (K+, Mg2+)",
+          "Blood glucose (hypoglycemia can mimic)",
+          "Fluid status (I&O, edema)"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize possible myocardial ischemia",
+          "Rapid pain/ABC assessment + oxygenation",
+          "Immediate escalation and cardiac monitoring",
+          "Assess hemodynamic stability/perfusion",
+          "Obtain ECG / rhythm identification",
+          "Oxygenation support if hypoxic",
+          "Pain control/comfort measures (as ordered)",
+          "IV access + monitoring",
+          "Identify reversible causes (meds, electrolytes)",
+          "Screen for ACS/ischemia pathway",
+          "Fall precautions/safety",
+          "Notify provider/rapid response criteria"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Apply oxygen if indicated; position for comfort",
+          "Place on monitor; obtain ECG per protocol",
+          "Notify provider urgently; prepare IV access/labs per orders",
+          "Position for comfort (upright if SOB)",
+          "Apply oxygen if indicated per protocol",
+          "Place on continuous cardiac monitoring",
+          "Obtain 12-lead ECG per protocol",
+          "Establish IV access",
+          "Prepare ordered labs (troponin/electrolytes)",
+          "Notify provider urgently / activate pathway",
+          "Maintain safe environment / fall precautions",
+          "Prepare for ordered meds (rate control, antihypertensive drip, etc.)",
+          "Avoid advising rapid BP lowering without orders",
+          "Reassure/calm patient, reduce stimulation",
+          "Strict I&O if fluid issue suspected"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Reassess pain + vitals within minutes",
+          "Monitor for ECG changes, hypotension, worsening SOB",
+          "Repeat BP/HR trends",
+          "Monitor chest pain response",
+          "Monitor rhythm changes on monitor",
+          "Assess perfusion (LOC, cap refill, urine output)",
+          "Recheck SpO2/resp effort",
+          "Reassess dizziness/syncope symptoms",
+          "Monitor for hypotension after interventions",
+          "Review ECG changes if repeated",
+          "Repeat neuro check if hypertensive emergency",
+          "Monitor for adverse effects of ordered meds"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "60 M",
+      "system": "Cardiac",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Crushing chest pain radiating to left arm",
+      "history": "HTN; Type 2 Diabetes Metformin; Amlodipine NKDA",
+      "vitals": "{\"T\": \"36.7°C\", \"HR\": \"104\", \"RR\": \"22\", \"BP\": \"158/96\", \"SpO2\": \"92% RA\"}",
+      "findings": "Diaphoretic; Anxious; Nausea"
+    },
+    "scenario_text": "A 60-year-old male presents to the emergency department complaining of crushing chest pain radiating to left arm. He reports diaphoretic; anxious; nausea. He has a history of HTN, Type 2 Diabetes; current/recent medications include Metformin, Amlodipine; allergies: NKDA. On arrival, vital signs show BP 158/96, HR 104, RR 22, temperature 36.7°C, oxygen saturation 92% RA. During assessment, he appears uncomfortable and anxious and states his symptoms are concerning."
+  },
+  {
+    "id": "adult_chf_01",
+    "title": "Congestive Heart Failure – Acute Fluid Overload",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Cardiac",
+    "setting": "Ward",
+    "patient": {
+      "age": 68,
+      "sex": "F"
+    },
+    "chiefComplaint": "Shortness of breath and leg swelling",
+    "history": {
+      "pmh": [
+        "Heart failure",
+        "HTN"
+      ],
+      "meds": [
+        "Furosemide",
+        "ACE inhibitor"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "37.0°C",
+      "HR": "110",
+      "RR": "26",
+      "BP": "150/90",
+      "SpO2": "88% RA"
+    },
+    "findings": [
+      "Bilateral crackles",
+      "Pitting edema",
+      "Orthopnea"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize fluid overload with hypoxia",
+        "Support oxygenation and reduce work of breathing",
+        "Monitor response and notify provider"
+      ],
+      "keyAssessments": [
+        "Resp status (SpO2, effort, lung sounds)",
+        "Weight change, edema, I&O",
+        "Perfusion: BP/HR, mental status"
+      ],
+      "interventions": [
+        "Position upright; apply oxygen per protocol",
+        "Strict I&O; consider fluid restriction per orders",
+        "Prepare/anticipate diuretics and labs per provider orders; monitor UO"
+      ],
+      "reassessment": [
+        "Recheck SpO2/resp effort after positioning/oxygen",
+        "Monitor urine output and symptom improvement",
+        "Watch for worsening distress or hypotension"
+      ],
+      "sbar": {
+        "S": "68F with worsening SOB and SpO2 88% RA, crackles and edema.",
+        "B": "Known HF on furosemide.",
+        "A": "Acute fluid overload with impaired gas exchange.",
+        "R": "Provider review for HF exacerbation orders; continue monitoring and oxygen."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Resp status (SpO2, effort, lung sounds)",
+          "Weight change, edema, I&O",
+          "Perfusion: BP/HR, mental status",
+          "12-lead ECG",
+          "Continuous cardiac monitor",
+          "Chest pain (OPQRST)",
+          "Dyspnea / work of breathing",
+          "Perfusion (cap refill, skin temp, pulses)",
+          "BP/HR trend review",
+          "Orthostatic vitals",
+          "Medication review (beta blocker/CCB/ACEi/diuretics)",
+          "Troponin (if ordered)",
+          "Electrolytes (K+, Mg2+)",
+          "Blood glucose (hypoglycemia can mimic)",
+          "Fluid status (I&O, edema)"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize fluid overload with hypoxia",
+          "Support oxygenation and reduce work of breathing",
+          "Monitor response and notify provider",
+          "Assess hemodynamic stability/perfusion",
+          "Obtain ECG / rhythm identification",
+          "Oxygenation support if hypoxic",
+          "Pain control/comfort measures (as ordered)",
+          "IV access + monitoring",
+          "Identify reversible causes (meds, electrolytes)",
+          "Screen for ACS/ischemia pathway",
+          "Fall precautions/safety",
+          "Notify provider/rapid response criteria"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Position upright; apply oxygen per protocol",
+          "Strict I&O; consider fluid restriction per orders",
+          "Prepare/anticipate diuretics and labs per provider orders; monitor UO",
+          "Position for comfort (upright if SOB)",
+          "Apply oxygen if indicated per protocol",
+          "Place on continuous cardiac monitoring",
+          "Obtain 12-lead ECG per protocol",
+          "Establish IV access",
+          "Prepare ordered labs (troponin/electrolytes)",
+          "Notify provider urgently / activate pathway",
+          "Maintain safe environment / fall precautions",
+          "Prepare for ordered meds (rate control, antihypertensive drip, etc.)",
+          "Avoid advising rapid BP lowering without orders",
+          "Reassure/calm patient, reduce stimulation",
+          "Strict I&O if fluid issue suspected"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Recheck SpO2/resp effort after positioning/oxygen",
+          "Monitor urine output and symptom improvement",
+          "Watch for worsening distress or hypotension",
+          "Repeat BP/HR trends",
+          "Monitor chest pain response",
+          "Monitor rhythm changes on monitor",
+          "Assess perfusion (LOC, cap refill, urine output)",
+          "Recheck SpO2/resp effort",
+          "Reassess dizziness/syncope symptoms",
+          "Monitor for hypotension after interventions",
+          "Review ECG changes if repeated",
+          "Repeat neuro check if hypertensive emergency"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "68 F",
+      "system": "Cardiac",
+      "setting": "Ward",
+      "ward": "",
+      "chief_complaint": "Shortness of breath and leg swelling",
+      "history": "Heart failure; HTN Furosemide; ACE inhibitor NKDA",
+      "vitals": "{\"T\": \"37.0°C\", \"HR\": \"110\", \"RR\": \"26\", \"BP\": \"150/90\", \"SpO2\": \"88% RA\"}",
+      "findings": "Bilateral crackles; Pitting edema; Orthopnea"
+    },
+    "scenario_text": "A 68-year-old female presents to the ward complaining of shortness of breath and leg swelling. She reports bilateral crackles; pitting edema; orthopnea. She has a history of Heart failure, HTN; current/recent medications include Furosemide, ACE inhibitor; allergies: NKDA. On arrival, vital signs show BP 150/90, HR 110, RR 26, temperature 37.0°C, oxygen saturation 88% RA. During assessment, she appears unwell and states her symptoms are concerning."
+  },
+  {
+    "id": "adult_afib_01",
+    "title": "Atrial Fibrillation – Rapid Irregular Pulse and Dizziness",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Cardiac",
+    "setting": "ER",
+    "patient": {
+      "age": 72,
+      "sex": "M"
+    },
+    "chiefComplaint": "Palpitations and dizziness",
+    "history": {
+      "pmh": [
+        "HTN"
+      ],
+      "meds": [
+        "Beta blocker"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "36.6°C",
+      "HR": "140 irregular",
+      "RR": "20",
+      "BP": "100/60",
+      "SpO2": "95% RA"
+    },
+    "findings": [
+      "Irregular pulse",
+      "Lightheaded",
+      "Mild dyspnea"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Assess hemodynamic stability",
+        "Continuous monitoring",
+        "Escalate for symptomatic rapid rate"
+      ],
+      "keyAssessments": [
+        "BP/LOC/perfusion",
+        "Chest pain/SOB",
+        "Rhythm + rate monitoring"
+      ],
+      "interventions": [
+        "Place on cardiac monitor; obtain ECG per protocol",
+        "Ensure safety (fall risk), IV access per protocol",
+        "Notify provider; prepare ordered meds/fluids per protocol"
+      ],
+      "reassessment": [
+        "Frequent vitals and symptoms",
+        "Monitor for hypotension, chest pain, worsening SOB"
+      ],
+      "sbar": {
+        "S": "72M palpitations/dizziness with HR 140 irregular, BP 100/60.",
+        "B": "HTN on beta blocker.",
+        "A": "AF with rapid ventricular response; symptomatic.",
+        "R": "Provider review for rate control/management orders; continue monitoring."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "BP/LOC/perfusion",
+          "Chest pain/SOB",
+          "Rhythm + rate monitoring",
+          "12-lead ECG",
+          "Continuous cardiac monitor",
+          "Chest pain (OPQRST)",
+          "Dyspnea / work of breathing",
+          "Perfusion (cap refill, skin temp, pulses)",
+          "BP/HR trend review",
+          "Orthostatic vitals",
+          "Medication review (beta blocker/CCB/ACEi/diuretics)",
+          "Troponin (if ordered)",
+          "Electrolytes (K+, Mg2+)",
+          "Blood glucose (hypoglycemia can mimic)",
+          "Fluid status (I&O, edema)"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Assess hemodynamic stability",
+          "Continuous monitoring",
+          "Escalate for symptomatic rapid rate",
+          "Assess hemodynamic stability/perfusion",
+          "Obtain ECG / rhythm identification",
+          "Oxygenation support if hypoxic",
+          "Pain control/comfort measures (as ordered)",
+          "IV access + monitoring",
+          "Identify reversible causes (meds, electrolytes)",
+          "Screen for ACS/ischemia pathway",
+          "Fall precautions/safety",
+          "Notify provider/rapid response criteria"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Place on cardiac monitor; obtain ECG per protocol",
+          "Ensure safety (fall risk), IV access per protocol",
+          "Notify provider; prepare ordered meds/fluids per protocol",
+          "Position for comfort (upright if SOB)",
+          "Apply oxygen if indicated per protocol",
+          "Place on continuous cardiac monitoring",
+          "Obtain 12-lead ECG per protocol",
+          "Establish IV access",
+          "Prepare ordered labs (troponin/electrolytes)",
+          "Notify provider urgently / activate pathway",
+          "Maintain safe environment / fall precautions",
+          "Prepare for ordered meds (rate control, antihypertensive drip, etc.)",
+          "Avoid advising rapid BP lowering without orders",
+          "Reassure/calm patient, reduce stimulation",
+          "Strict I&O if fluid issue suspected"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Frequent vitals and symptoms",
+          "Monitor for hypotension, chest pain, worsening SOB",
+          "Repeat BP/HR trends",
+          "Monitor chest pain response",
+          "Monitor rhythm changes on monitor",
+          "Assess perfusion (LOC, cap refill, urine output)",
+          "Recheck SpO2/resp effort",
+          "Reassess dizziness/syncope symptoms",
+          "Monitor for hypotension after interventions",
+          "Review ECG changes if repeated",
+          "Repeat neuro check if hypertensive emergency",
+          "Monitor for adverse effects of ordered meds"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "72 M",
+      "system": "Cardiac",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Palpitations and dizziness",
+      "history": "HTN Beta blocker NKDA",
+      "vitals": "{\"T\": \"36.6°C\", \"HR\": \"140 irregular\", \"RR\": \"20\", \"BP\": \"100/60\", \"SpO2\": \"95% RA\"}",
+      "findings": "Irregular pulse; Lightheaded; Mild dyspnea"
+    },
+    "scenario_text": "A 72-year-old male presents to the emergency department complaining of palpitations and dizziness. He reports irregular pulse; lightheaded; mild dyspnea. He has a history of HTN; current/recent medications include Beta blocker; allergies: NKDA. On arrival, vital signs show BP 100/60, HR 140 irregular, RR 20, temperature 36.6°C, oxygen saturation 95% RA. During assessment, he appears unwell and states his symptoms are concerning."
+  },
+  {
+    "id": "adult_brady_01",
+    "title": "Symptomatic Bradycardia – Dizziness and Hypotension",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Cardiac",
+    "setting": "Ward",
+    "patient": {
+      "age": 70,
+      "sex": "F"
+    },
+    "chiefComplaint": "Dizziness and near syncope",
+    "history": {
+      "pmh": [
+        "Ischemic heart disease"
+      ],
+      "meds": [
+        "Beta blocker"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "36.5°C",
+      "HR": "42",
+      "RR": "18",
+      "BP": "88/54",
+      "SpO2": "96% RA"
+    },
+    "findings": [
+      "Cool skin",
+      "Weak pulse",
+      "Fatigue"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize unstable bradycardia",
+        "Support circulation/safety",
+        "Immediate escalation"
+      ],
+      "keyAssessments": [
+        "LOC, dizziness/syncope",
+        "BP/HR trends",
+        "Medication timing (beta blocker)"
+      ],
+      "interventions": [
+        "Continuous monitoring; obtain ECG per protocol",
+        "Notify provider/rapid response per policy",
+        "Ensure IV access and prepare ordered interventions"
+      ],
+      "reassessment": [
+        "Frequent vitals and LOC checks",
+        "Monitor for worsening hypotension or chest pain"
+      ],
+      "sbar": {
+        "S": "70F dizzy/near syncope with HR 42 and BP 88/54.",
+        "B": "IHD; on beta blocker.",
+        "A": "Symptomatic bradycardia with hypotension.",
+        "R": "Urgent provider review/rapid response; monitor and prepare ordered treatment."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "LOC, dizziness/syncope",
+          "BP/HR trends",
+          "Medication timing (beta blocker)",
+          "12-lead ECG",
+          "Continuous cardiac monitor",
+          "Chest pain (OPQRST)",
+          "Dyspnea / work of breathing",
+          "Perfusion (cap refill, skin temp, pulses)",
+          "BP/HR trend review",
+          "Orthostatic vitals",
+          "Medication review (beta blocker/CCB/ACEi/diuretics)",
+          "Troponin (if ordered)",
+          "Electrolytes (K+, Mg2+)",
+          "Blood glucose (hypoglycemia can mimic)",
+          "Fluid status (I&O, edema)"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize unstable bradycardia",
+          "Support circulation/safety",
+          "Immediate escalation",
+          "Assess hemodynamic stability/perfusion",
+          "Obtain ECG / rhythm identification",
+          "Oxygenation support if hypoxic",
+          "Pain control/comfort measures (as ordered)",
+          "IV access + monitoring",
+          "Identify reversible causes (meds, electrolytes)",
+          "Screen for ACS/ischemia pathway",
+          "Fall precautions/safety",
+          "Notify provider/rapid response criteria"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Continuous monitoring; obtain ECG per protocol",
+          "Notify provider/rapid response per policy",
+          "Ensure IV access and prepare ordered interventions",
+          "Position for comfort (upright if SOB)",
+          "Apply oxygen if indicated per protocol",
+          "Place on continuous cardiac monitoring",
+          "Obtain 12-lead ECG per protocol",
+          "Establish IV access",
+          "Prepare ordered labs (troponin/electrolytes)",
+          "Notify provider urgently / activate pathway",
+          "Maintain safe environment / fall precautions",
+          "Prepare for ordered meds (rate control, antihypertensive drip, etc.)",
+          "Avoid advising rapid BP lowering without orders",
+          "Reassure/calm patient, reduce stimulation",
+          "Strict I&O if fluid issue suspected"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Frequent vitals and LOC checks",
+          "Monitor for worsening hypotension or chest pain",
+          "Repeat BP/HR trends",
+          "Monitor chest pain response",
+          "Monitor rhythm changes on monitor",
+          "Assess perfusion (LOC, cap refill, urine output)",
+          "Recheck SpO2/resp effort",
+          "Reassess dizziness/syncope symptoms",
+          "Monitor for hypotension after interventions",
+          "Review ECG changes if repeated",
+          "Repeat neuro check if hypertensive emergency",
+          "Monitor for adverse effects of ordered meds"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "70 F",
+      "system": "Cardiac",
+      "setting": "Ward",
+      "ward": "",
+      "chief_complaint": "Dizziness and near syncope",
+      "history": "Ischemic heart disease Beta blocker NKDA",
+      "vitals": "{\"T\": \"36.5°C\", \"HR\": \"42\", \"RR\": \"18\", \"BP\": \"88/54\", \"SpO2\": \"96% RA\"}",
+      "findings": "Cool skin; Weak pulse; Fatigue"
+    },
+    "scenario_text": "A 70-year-old female presents to the ward complaining of dizziness and near syncope. She reports cool skin; weak pulse; fatigue. She has a history of Ischemic heart disease; current/recent medications include Beta blocker; allergies: NKDA. On arrival, vital signs show BP 88/54, HR 42, RR 18, temperature 36.5°C, oxygen saturation 96% RA. During assessment, she appears unwell and states her symptoms are concerning."
+  },
+  {
+    "id": "adult_copd_01",
+    "title": "COPD Exacerbation – Increased Work of Breathing",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Respiratory",
+    "setting": "ER",
+    "patient": {
+      "age": 66,
+      "sex": "M"
+    },
+    "chiefComplaint": "Worsening shortness of breath",
+    "history": {
+      "pmh": [
+        "COPD"
+      ],
+      "meds": [
+        "Inhalers"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "37.2°C",
+      "HR": "112",
+      "RR": "30",
+      "BP": "146/86",
+      "SpO2": "86% RA"
+    },
+    "findings": [
+      "Wheezing",
+      "Accessory muscle use",
+      "Tripod position"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Support ventilation/oxygenation",
+        "Rapid resp assessment",
+        "Escalate if fatigue/CO2 retention signs"
+      ],
+      "keyAssessments": [
+        "SpO2, effort, ability to speak",
+        "Breath sounds, accessory muscles",
+        "Mental status (CO2 retention)"
+      ],
+      "interventions": [
+        "Position upright; oxygen per protocol to target range",
+        "Administer bronchodilators as ordered; monitor response",
+        "Prepare for ABG/nebulizers; notify provider if deterioration"
+      ],
+      "reassessment": [
+        "Reassess SpO2, RR, work of breathing after interventions",
+        "Monitor for fatigue, drowsiness, worsening hypoxia"
+      ],
+      "sbar": {
+        "S": "66M COPD with worsening SOB, SpO2 86% RA, RR 30.",
+        "B": "Known COPD on inhalers.",
+        "A": "COPD exacerbation with increased work of breathing.",
+        "R": "Request orders/resp therapy; continue oxygen, monitoring, and treatments."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "SpO2, effort, ability to speak",
+          "Breath sounds, accessory muscles",
+          "Mental status (CO2 retention)",
+          "SpO2 and oxygen requirement",
+          "Resp rate and work of breathing",
+          "Ability to speak full sentences",
+          "Auscultate breath sounds (wheeze/crackles/silent chest)",
+          "Accessory muscle use / tripod position",
+          "Peak flow if available",
+          "Chest pain (pleuritic vs pressure)",
+          "Risk factors (surgery/immobility for PE)",
+          "Sputum color/amount",
+          "Fever/infection signs",
+          "ABG readiness (if ordered)",
+          "CXR readiness (if ordered)"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Support ventilation/oxygenation",
+          "Rapid resp assessment",
+          "Escalate if fatigue/CO2 retention signs",
+          "Support oxygenation/ventilation",
+          "Position upright",
+          "Rapid respiratory assessment",
+          "Escalate if fatigue/silent chest",
+          "Bronchodilator/neb therapy per orders",
+          "Prepare ABG/CXR per orders",
+          "Monitor for PE/sepsis indicators",
+          "Continuous monitoring",
+          "Notify provider/respiratory therapy"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Position upright; oxygen per protocol to target range",
+          "Administer bronchodilators as ordered; monitor response",
+          "Prepare for ABG/nebulizers; notify provider if deterioration",
+          "Position upright/high Fowler’s",
+          "Apply oxygen per protocol (target range)",
+          "Continuous pulse oximetry",
+          "Administer bronchodilator/nebulizer as ordered",
+          "Prepare ABG per orders",
+          "Prepare CXR per orders",
+          "Encourage controlled breathing (pursed-lip for COPD)",
+          "Maintain calm environment / reassurance",
+          "Notify provider if worsening distress",
+          "Suction PRN if secretions",
+          "Collect sputum/cultures if ordered",
+          "Administer antibiotics as ordered (pneumonia/sepsis)"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Reassess SpO2, RR, work of breathing after interventions",
+          "Monitor for fatigue, drowsiness, worsening hypoxia",
+          "Reassess SpO2 after oxygen/neb",
+          "Reassess RR/work of breathing",
+          "Recheck breath sounds",
+          "Monitor mental status/drowsiness",
+          "Assess ability to speak",
+          "Monitor for fatigue",
+          "Trend vitals/fever",
+          "Monitor response to antibiotics (if given)",
+          "Escalate if silent chest",
+          "Monitor for hypotension in PE/sepsis"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "66 M",
+      "system": "Respiratory",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Worsening shortness of breath",
+      "history": "COPD Inhalers NKDA",
+      "vitals": "{\"T\": \"37.2°C\", \"HR\": \"112\", \"RR\": \"30\", \"BP\": \"146/86\", \"SpO2\": \"86% RA\"}",
+      "findings": "Wheezing; Accessory muscle use; Tripod position"
+    },
+    "scenario_text": "A 66-year-old male presents to the emergency department complaining of worsening shortness of breath. He reports wheezing; accessory muscle use; tripod position. He has a history of COPD; current/recent medications include Inhalers; allergies: NKDA. On arrival, vital signs show BP 146/86, HR 112, RR 30, temperature 37.2°C, oxygen saturation 86% RA. During assessment, he appears unwell and states his symptoms are concerning."
+  },
+  {
+    "id": "adult_pna_01",
+    "title": "Pneumonia – Fever and Productive Cough",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Respiratory",
+    "setting": "Ward",
+    "patient": {
+      "age": 74,
+      "sex": "F"
+    },
+    "chiefComplaint": "Fever and productive cough",
+    "history": {
+      "pmh": [
+        "Type 2 Diabetes"
+      ],
+      "meds": [
+        "Metformin"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "38.9°C",
+      "HR": "108",
+      "RR": "24",
+      "BP": "132/78",
+      "SpO2": "90% RA"
+    },
+    "findings": [
+      "Crackles RLL",
+      "Fatigue",
+      "Reduced appetite"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize infection + impaired gas exchange risk",
+        "Support oxygenation",
+        "Escalate if sepsis indicators"
+      ],
+      "keyAssessments": [
+        "Temp, SpO2, RR",
+        "Lung sounds, sputum",
+        "Hydration status and mental status"
+      ],
+      "interventions": [
+        "Oxygen per protocol; position upright",
+        "Encourage fluids if safe; collect ordered cultures",
+        "Administer antibiotics per order; monitor response"
+      ],
+      "reassessment": [
+        "Recheck temp/SpO2 after interventions",
+        "Monitor for hypotension, confusion, increasing RR"
+      ],
+      "sbar": {
+        "S": "74F fever and productive cough, SpO2 90% RA.",
+        "B": "T2DM.",
+        "A": "Pneumonia with hypoxia risk.",
+        "R": "Provider review for antibiotics/oxygen plan; continue monitoring."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Temp, SpO2, RR",
+          "Lung sounds, sputum",
+          "Hydration status and mental status",
+          "SpO2 and oxygen requirement",
+          "Resp rate and work of breathing",
+          "Ability to speak full sentences",
+          "Auscultate breath sounds (wheeze/crackles/silent chest)",
+          "Accessory muscle use / tripod position",
+          "Mental status (CO2 retention)",
+          "Peak flow if available",
+          "Chest pain (pleuritic vs pressure)",
+          "Risk factors (surgery/immobility for PE)",
+          "Sputum color/amount",
+          "Fever/infection signs",
+          "ABG readiness (if ordered)"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize infection + impaired gas exchange risk",
+          "Support oxygenation",
+          "Escalate if sepsis indicators",
+          "Support oxygenation/ventilation",
+          "Position upright",
+          "Rapid respiratory assessment",
+          "Escalate if fatigue/silent chest",
+          "Bronchodilator/neb therapy per orders",
+          "Prepare ABG/CXR per orders",
+          "Monitor for PE/sepsis indicators",
+          "Continuous monitoring",
+          "Notify provider/respiratory therapy"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Oxygen per protocol; position upright",
+          "Encourage fluids if safe; collect ordered cultures",
+          "Administer antibiotics per order; monitor response",
+          "Position upright/high Fowler’s",
+          "Apply oxygen per protocol (target range)",
+          "Continuous pulse oximetry",
+          "Administer bronchodilator/nebulizer as ordered",
+          "Prepare ABG per orders",
+          "Prepare CXR per orders",
+          "Encourage controlled breathing (pursed-lip for COPD)",
+          "Maintain calm environment / reassurance",
+          "Notify provider if worsening distress",
+          "Suction PRN if secretions",
+          "Collect sputum/cultures if ordered",
+          "Administer antibiotics as ordered (pneumonia/sepsis)"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Recheck temp/SpO2 after interventions",
+          "Monitor for hypotension, confusion, increasing RR",
+          "Reassess SpO2 after oxygen/neb",
+          "Reassess RR/work of breathing",
+          "Recheck breath sounds",
+          "Monitor mental status/drowsiness",
+          "Assess ability to speak",
+          "Monitor for fatigue",
+          "Trend vitals/fever",
+          "Monitor response to antibiotics (if given)",
+          "Escalate if silent chest",
+          "Monitor for hypotension in PE/sepsis"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "74 F",
+      "system": "Respiratory",
+      "setting": "Ward",
+      "ward": "",
+      "chief_complaint": "Fever and productive cough",
+      "history": "Type 2 Diabetes Metformin NKDA",
+      "vitals": "{\"T\": \"38.9°C\", \"HR\": \"108\", \"RR\": \"24\", \"BP\": \"132/78\", \"SpO2\": \"90% RA\"}",
+      "findings": "Crackles RLL; Fatigue; Reduced appetite"
+    },
+    "scenario_text": "A 74-year-old female presents to the ward complaining of fever and productive cough. She reports crackles rll; fatigue; reduced appetite. She has a history of Type 2 Diabetes; current/recent medications include Metformin; allergies: NKDA. On arrival, vital signs show BP 132/78, HR 108, RR 24, temperature 38.9°C, oxygen saturation 90% RA. During assessment, she appears unwell and states her symptoms are concerning."
+  },
+  {
+    "id": "adult_pe_01",
+    "title": "Pulmonary Embolism – Sudden Dyspnea and Pleuritic Pain",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Respiratory",
+    "setting": "ER",
+    "patient": {
+      "age": 58,
+      "sex": "F"
+    },
+    "chiefComplaint": "Sudden shortness of breath and chest pain",
+    "history": {
+      "pmh": [
+        "Recent surgery"
+      ],
+      "meds": [],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "36.9°C",
+      "HR": "120",
+      "RR": "28",
+      "BP": "110/70",
+      "SpO2": "88% RA"
+    },
+    "findings": [
+      "Pleuritic chest pain",
+      "Anxious",
+      "Tachycardia"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize PE risk and hypoxia",
+        "Support oxygenation",
+        "Urgent escalation"
+      ],
+      "keyAssessments": [
+        "SpO2, RR, distress",
+        "Chest pain characteristics",
+        "Risk factors: immobility/surgery"
+      ],
+      "interventions": [
+        "Apply oxygen; keep patient calm and monitored",
+        "Notify provider urgently; prepare diagnostics per order",
+        "Continuous monitoring; IV access per protocol"
+      ],
+      "reassessment": [
+        "Frequent vitals/SpO2",
+        "Monitor for hypotension, worsening respiratory distress"
+      ],
+      "sbar": {
+        "S": "58F sudden dyspnea with pleuritic chest pain, SpO2 88% RA.",
+        "B": "Recent surgery.",
+        "A": "Possible PE with hypoxia and tachycardia.",
+        "R": "Urgent provider review and PE workup orders."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "SpO2, RR, distress",
+          "Chest pain characteristics",
+          "Risk factors: immobility/surgery",
+          "SpO2 and oxygen requirement",
+          "Resp rate and work of breathing",
+          "Ability to speak full sentences",
+          "Auscultate breath sounds (wheeze/crackles/silent chest)",
+          "Accessory muscle use / tripod position",
+          "Mental status (CO2 retention)",
+          "Peak flow if available",
+          "Chest pain (pleuritic vs pressure)",
+          "Risk factors (surgery/immobility for PE)",
+          "Sputum color/amount",
+          "Fever/infection signs",
+          "ABG readiness (if ordered)"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize PE risk and hypoxia",
+          "Support oxygenation",
+          "Urgent escalation",
+          "Support oxygenation/ventilation",
+          "Position upright",
+          "Rapid respiratory assessment",
+          "Escalate if fatigue/silent chest",
+          "Bronchodilator/neb therapy per orders",
+          "Prepare ABG/CXR per orders",
+          "Monitor for PE/sepsis indicators",
+          "Continuous monitoring",
+          "Notify provider/respiratory therapy"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Apply oxygen; keep patient calm and monitored",
+          "Notify provider urgently; prepare diagnostics per order",
+          "Continuous monitoring; IV access per protocol",
+          "Position upright/high Fowler’s",
+          "Apply oxygen per protocol (target range)",
+          "Continuous pulse oximetry",
+          "Administer bronchodilator/nebulizer as ordered",
+          "Prepare ABG per orders",
+          "Prepare CXR per orders",
+          "Encourage controlled breathing (pursed-lip for COPD)",
+          "Maintain calm environment / reassurance",
+          "Notify provider if worsening distress",
+          "Suction PRN if secretions",
+          "Collect sputum/cultures if ordered",
+          "Administer antibiotics as ordered (pneumonia/sepsis)"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Frequent vitals/SpO2",
+          "Monitor for hypotension, worsening respiratory distress",
+          "Reassess SpO2 after oxygen/neb",
+          "Reassess RR/work of breathing",
+          "Recheck breath sounds",
+          "Monitor mental status/drowsiness",
+          "Assess ability to speak",
+          "Monitor for fatigue",
+          "Trend vitals/fever",
+          "Monitor response to antibiotics (if given)",
+          "Escalate if silent chest",
+          "Monitor for hypotension in PE/sepsis"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "58 F",
+      "system": "Respiratory",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Sudden shortness of breath and chest pain",
+      "history": "Recent surgery  NKDA",
+      "vitals": "{\"T\": \"36.9°C\", \"HR\": \"120\", \"RR\": \"28\", \"BP\": \"110/70\", \"SpO2\": \"88% RA\"}",
+      "findings": "Pleuritic chest pain; Anxious; Tachycardia"
+    },
+    "scenario_text": "A 58-year-old female presents to the emergency department complaining of sudden shortness of breath and chest pain. She reports pleuritic chest pain; anxious; tachycardia. She has a history of Recent surgery; allergies: NKDA. On arrival, vital signs show BP 110/70, HR 120, RR 28, temperature 36.9°C, oxygen saturation 88% RA. During assessment, she appears uncomfortable and anxious and states her symptoms are concerning."
+  },
+  {
+    "id": "adult_asthma_01",
+    "title": "Acute Asthma – Wheeze and Tight Chest",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Respiratory",
+    "setting": "ER",
+    "patient": {
+      "age": 34,
+      "sex": "F"
+    },
+    "chiefComplaint": "Wheezing and chest tightness",
+    "history": {
+      "pmh": [
+        "Asthma"
+      ],
+      "meds": [
+        "Rescue inhaler"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "37.1°C",
+      "HR": "118",
+      "RR": "32",
+      "BP": "128/80",
+      "SpO2": "89% RA"
+    },
+    "findings": [
+      "Diffuse wheeze",
+      "Speaking in short phrases",
+      "Anxious"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Improve ventilation/oxygenation",
+        "Rapid ABC assessment",
+        "Escalate if silent chest/fatigue"
+      ],
+      "keyAssessments": [
+        "SpO2, RR, ability to speak",
+        "Breath sounds (wheeze vs silent)",
+        "Peak flow if available"
+      ],
+      "interventions": [
+        "Position upright; oxygen per protocol",
+        "Administer bronchodilator/nebulizer as ordered",
+        "Monitor closely; notify provider if worsening"
+      ],
+      "reassessment": [
+        "Reassess breath sounds and SpO2 after treatment",
+        "Watch for fatigue, decreasing air movement"
+      ],
+      "sbar": {
+        "S": "34F acute wheeze and tight chest, SpO2 89% RA.",
+        "B": "Known asthma; used rescue inhaler with limited relief.",
+        "A": "Acute asthma exacerbation with distress.",
+        "R": "Request bronchodilator/nebulizer plan and close monitoring."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "SpO2, RR, ability to speak",
+          "Breath sounds (wheeze vs silent)",
+          "Peak flow if available",
+          "SpO2 and oxygen requirement",
+          "Resp rate and work of breathing",
+          "Ability to speak full sentences",
+          "Auscultate breath sounds (wheeze/crackles/silent chest)",
+          "Accessory muscle use / tripod position",
+          "Mental status (CO2 retention)",
+          "Chest pain (pleuritic vs pressure)",
+          "Risk factors (surgery/immobility for PE)",
+          "Sputum color/amount",
+          "Fever/infection signs",
+          "ABG readiness (if ordered)",
+          "CXR readiness (if ordered)"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Improve ventilation/oxygenation",
+          "Rapid ABC assessment",
+          "Escalate if silent chest/fatigue",
+          "Support oxygenation/ventilation",
+          "Position upright",
+          "Rapid respiratory assessment",
+          "Escalate if fatigue/silent chest",
+          "Bronchodilator/neb therapy per orders",
+          "Prepare ABG/CXR per orders",
+          "Monitor for PE/sepsis indicators",
+          "Continuous monitoring",
+          "Notify provider/respiratory therapy"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Position upright; oxygen per protocol",
+          "Administer bronchodilator/nebulizer as ordered",
+          "Monitor closely; notify provider if worsening",
+          "Position upright/high Fowler’s",
+          "Apply oxygen per protocol (target range)",
+          "Continuous pulse oximetry",
+          "Prepare ABG per orders",
+          "Prepare CXR per orders",
+          "Encourage controlled breathing (pursed-lip for COPD)",
+          "Maintain calm environment / reassurance",
+          "Notify provider if worsening distress",
+          "Suction PRN if secretions",
+          "Collect sputum/cultures if ordered",
+          "Administer antibiotics as ordered (pneumonia/sepsis)",
+          "IV access per protocol"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Reassess breath sounds and SpO2 after treatment",
+          "Watch for fatigue, decreasing air movement",
+          "Reassess SpO2 after oxygen/neb",
+          "Reassess RR/work of breathing",
+          "Recheck breath sounds",
+          "Monitor mental status/drowsiness",
+          "Assess ability to speak",
+          "Monitor for fatigue",
+          "Trend vitals/fever",
+          "Monitor response to antibiotics (if given)",
+          "Escalate if silent chest",
+          "Monitor for hypotension in PE/sepsis"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "34 F",
+      "system": "Respiratory",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Wheezing and chest tightness",
+      "history": "Asthma Rescue inhaler NKDA",
+      "vitals": "{\"T\": \"37.1°C\", \"HR\": \"118\", \"RR\": \"32\", \"BP\": \"128/80\", \"SpO2\": \"89% RA\"}",
+      "findings": "Diffuse wheeze; Speaking in short phrases; Anxious"
+    },
+    "scenario_text": "A 34-year-old female presents to the emergency department complaining of wheezing and chest tightness. She reports diffuse wheeze; speaking in short phrases; anxious. She has a history of Asthma; current/recent medications include Rescue inhaler; allergies: NKDA. On arrival, vital signs show BP 128/80, HR 118, RR 32, temperature 37.1°C, oxygen saturation 89% RA. During assessment, she appears uncomfortable and anxious and states her symptoms are concerning.",
+    "system": "Respiratory"
+  },
+  {
+    "id": "adult_stroke_01",
+    "title": "Stroke – Sudden Weakness and Slurred Speech",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Neuro",
+    "setting": "ER",
+    "patient": {
+      "age": 64,
+      "sex": "M"
+    },
+    "chiefComplaint": "Sudden left-sided weakness",
+    "history": {
+      "pmh": [
+        "HTN"
+      ],
+      "meds": [
+        "Amlodipine (missed)"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "36.8°C",
+      "HR": "92",
+      "RR": "18",
+      "BP": "182/104",
+      "SpO2": "97% RA"
+    },
+    "findings": [
+      "Facial droop",
+      "Slurred speech",
+      "Arm drift"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize stroke signs (FAST) and activate pathway",
+        "Protect airway/oxygenation if needed",
+        "Urgent escalation and time tracking"
+      ],
+      "keyAssessments": [
+        "Last known well time",
+        "Neuro assessment (FAST/NIHSS basics)",
+        "Glucose check per protocol"
+      ],
+      "interventions": [
+        "Activate stroke alert per policy",
+        "Maintain NPO until swallow screen",
+        "Prepare for imaging/labs per protocol"
+      ],
+      "reassessment": [
+        "Frequent neuro/vital checks",
+        "Monitor for deterioration: decreased LOC, vomiting, airway risk"
+      ],
+      "sbar": {
+        "S": "64M sudden left weakness, facial droop, slurred speech.",
+        "B": "HTN; missed meds.",
+        "A": "Suspected acute stroke; last known well needs confirmation.",
+        "R": "Activate stroke pathway; urgent CT/labs per protocol."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Last known well time",
+          "Neuro assessment (FAST/NIHSS basics)",
+          "Glucose check per protocol",
+          "FAST signs (face/arm/speech)",
+          "Glucose check (stroke mimic)",
+          "Level of consciousness (LOC)",
+          "Pupil size/reactivity",
+          "GCS (basic)",
+          "Seizure history and triggers",
+          "Postictal features",
+          "Head trauma/injury check",
+          "Swallow screen readiness (NPO until done)",
+          "Speech/aphasia assessment",
+          "Motor strength/sensation",
+          "BP monitoring (stroke context)"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize stroke signs (FAST) and activate pathway",
+          "Protect airway/oxygenation if needed",
+          "Urgent escalation and time tracking",
+          "Activate stroke/seizure pathway",
+          "Airway protection if decreased LOC",
+          "Time-critical escalation",
+          "Glucose correction if low",
+          "Prepare imaging/labs per protocol",
+          "Maintain NPO until swallow screen",
+          "Frequent neuro reassessments",
+          "Safety/injury prevention",
+          "Control agitation safely"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Activate stroke alert per policy",
+          "Maintain NPO until swallow screen",
+          "Prepare for imaging/labs per protocol",
+          "Prepare for CT/labs per protocol",
+          "Protect airway; position as needed",
+          "Seizure precautions (padded rails)",
+          "Lateral recovery position post seizure",
+          "Suction available; oxygen if needed",
+          "Protect from injury; do not restrain forcibly",
+          "Check glucose and treat per protocol if low",
+          "Notify provider; document seizure details",
+          "Frequent neuro checks",
+          "Fall precautions",
+          "Calm environment, reduce stimulation",
+          "IV access per orders/protocol"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Frequent neuro/vital checks",
+          "Monitor for deterioration: decreased LOC, vomiting, airway risk",
+          "Repeat neuro exam/FAST",
+          "Monitor LOC changes",
+          "Monitor airway risk/vomiting",
+          "Recheck glucose if treated",
+          "Monitor BP trends",
+          "Assess for recurrent seizure activity",
+          "Monitor oxygenation",
+          "Document neuro changes with time",
+          "Escalate for deterioration",
+          "Assess headache/vision worsening"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "64 M",
+      "system": "Neuro",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Sudden left-sided weakness",
+      "history": "HTN Amlodipine (missed) NKDA",
+      "vitals": "{\"T\": \"36.8°C\", \"HR\": \"92\", \"RR\": \"18\", \"BP\": \"182/104\", \"SpO2\": \"97% RA\"}",
+      "findings": "Facial droop; Slurred speech; Arm drift"
+    },
+    "scenario_text": "A 64-year-old male presents to the emergency department complaining of sudden left-sided weakness. He reports facial droop; slurred speech; arm drift. He has a history of HTN; current/recent medications include Amlodipine (missed); allergies: NKDA. On arrival, vital signs show BP 182/104, HR 92, RR 18, temperature 36.8°C, oxygen saturation 97% RA. During assessment, he appears unwell and states his symptoms are concerning."
+  },
+  {
+    "id": "adult_seizure_01",
+    "title": "Seizure – Postictal Confusion",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Neuro",
+    "setting": "Ward",
+    "patient": {
+      "age": 41,
+      "sex": "M"
+    },
+    "chiefComplaint": "Found confused after shaking episode",
+    "history": {
+      "pmh": [
+        "Epilepsy"
+      ],
+      "meds": [
+        "Levetiracetam (missed dose)"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "36.9°C",
+      "HR": "102",
+      "RR": "20",
+      "BP": "128/84",
+      "SpO2": "95% RA"
+    },
+    "findings": [
+      "Postictal confusion",
+      "Tongue bite (small)",
+      "Headache"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Maintain safety/airway",
+        "Assess injury and neuro status",
+        "Escalate if ongoing seizure or airway compromise"
+      ],
+      "keyAssessments": [
+        "Airway/breathing, SpO2",
+        "Glucose check",
+        "Injury assessment (head trauma)"
+      ],
+      "interventions": [
+        "Position lateral recovery; protect from injury",
+        "Maintain airway and suction PRN; oxygen if indicated",
+        "Notify provider; document seizure details if witnessed"
+      ],
+      "reassessment": [
+        "Monitor LOC and vitals",
+        "Watch for recurrent seizure or decreased SpO2"
+      ],
+      "sbar": {
+        "S": "41M found confused after suspected seizure; now postictal.",
+        "B": "Epilepsy; missed dose.",
+        "A": "Postictal state; assess injury and airway.",
+        "R": "Provider review; consider labs/med adjustment per orders."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Airway/breathing, SpO2",
+          "Glucose check",
+          "Injury assessment (head trauma)",
+          "FAST signs (face/arm/speech)",
+          "Last known well time",
+          "Glucose check (stroke mimic)",
+          "Level of consciousness (LOC)",
+          "Pupil size/reactivity",
+          "GCS (basic)",
+          "Seizure history and triggers",
+          "Postictal features",
+          "Head trauma/injury check",
+          "Swallow screen readiness (NPO until done)",
+          "Speech/aphasia assessment",
+          "Motor strength/sensation"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Maintain safety/airway",
+          "Assess injury and neuro status",
+          "Escalate if ongoing seizure or airway compromise",
+          "Activate stroke/seizure pathway",
+          "Airway protection if decreased LOC",
+          "Time-critical escalation",
+          "Glucose correction if low",
+          "Prepare imaging/labs per protocol",
+          "Maintain NPO until swallow screen",
+          "Frequent neuro reassessments",
+          "Safety/injury prevention",
+          "Control agitation safely"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Position lateral recovery; protect from injury",
+          "Maintain airway and suction PRN; oxygen if indicated",
+          "Notify provider; document seizure details if witnessed",
+          "Activate stroke alert per policy",
+          "Maintain NPO until swallow screen",
+          "Prepare for CT/labs per protocol",
+          "Protect airway; position as needed",
+          "Seizure precautions (padded rails)",
+          "Lateral recovery position post seizure",
+          "Suction available; oxygen if needed",
+          "Protect from injury; do not restrain forcibly",
+          "Check glucose and treat per protocol if low",
+          "Notify provider; document seizure details",
+          "Frequent neuro checks",
+          "Fall precautions"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Monitor LOC and vitals",
+          "Watch for recurrent seizure or decreased SpO2",
+          "Repeat neuro exam/FAST",
+          "Monitor LOC changes",
+          "Monitor airway risk/vomiting",
+          "Recheck glucose if treated",
+          "Monitor BP trends",
+          "Assess for recurrent seizure activity",
+          "Monitor oxygenation",
+          "Document neuro changes with time",
+          "Escalate for deterioration",
+          "Assess headache/vision worsening"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "41 M",
+      "system": "Neuro",
+      "setting": "Ward",
+      "ward": "",
+      "chief_complaint": "Found confused after shaking episode",
+      "history": "Epilepsy Levetiracetam (missed dose) NKDA",
+      "vitals": "{\"T\": \"36.9°C\", \"HR\": \"102\", \"RR\": \"20\", \"BP\": \"128/84\", \"SpO2\": \"95% RA\"}",
+      "findings": "Postictal confusion; Tongue bite (small); Headache"
+    },
+    "scenario_text": "A 41-year-old male presents to the ward complaining of found confused after shaking episode. He reports postictal confusion; tongue bite (small); headache. He has a history of Epilepsy; current/recent medications include Levetiracetam (missed dose); allergies: NKDA. On arrival, vital signs show BP 128/84, HR 102, RR 20, temperature 36.9°C, oxygen saturation 95% RA. During assessment, he appears unwell and states his symptoms are concerning."
+  },
+  {
+    "id": "adult_dka_01",
+    "title": "Diabetic Ketoacidosis – Vomiting and Kussmaul Breathing",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Endocrine",
+    "setting": "ER",
+    "patient": {
+      "age": 25,
+      "sex": "F"
+    },
+    "chiefComplaint": "Vomiting and deep rapid breathing",
+    "history": {
+      "pmh": [
+        "T1DM"
+      ],
+      "meds": [
+        "Insulin (missed)"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "37.4°C",
+      "HR": "118",
+      "RR": "32",
+      "BP": "102/66",
+      "SpO2": "97% RA"
+    },
+    "findings": [
+      "Kussmaul breathing",
+      "Fruity breath",
+      "Dehydration"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize DKA and dehydration",
+        "Support circulation and monitoring",
+        "Prepare for protocol-based treatment (provider orders)"
+      ],
+      "keyAssessments": [
+        "Glucose/ketones per protocol",
+        "Hydration status, urine output",
+        "Mental status and vitals"
+      ],
+      "interventions": [
+        "Establish IV access; begin fluids per orders/protocol",
+        "Monitor glucose/electrolytes per protocol",
+        "Notify provider and prepare insulin protocol per orders"
+      ],
+      "reassessment": [
+        "Frequent vitals and mental status checks",
+        "Monitor urine output and glucose trends"
+      ],
+      "sbar": {
+        "S": "25F vomiting with Kussmaul breathing and dehydration.",
+        "B": "T1DM; missed insulin.",
+        "A": "Suspected DKA.",
+        "R": "Initiate DKA pathway orders; fluids/monitoring now."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Glucose/ketones per protocol",
+          "Hydration status, urine output",
+          "Mental status and vitals",
+          "Point-of-care glucose",
+          "Ketones (blood/urine) if indicated",
+          "Hydration status (dry mucosa, skin turgor)",
+          "Kussmaul breathing",
+          "Mental status changes",
+          "Medication/meal timing",
+          "Insulin adherence history",
+          "Nausea/vomiting",
+          "Temp/fever",
+          "Electrolyte risk signs (weakness/palpitations)",
+          "Urine output",
+          "Weight change"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize DKA and dehydration",
+          "Support circulation and monitoring",
+          "Prepare for protocol-based treatment (provider orders)",
+          "Immediate glucose correction per protocol (if low)",
+          "IV access and fluids per orders (DKA)",
+          "Monitor electrolytes per protocol",
+          "Identify cause (missed insulin/meal)",
+          "Frequent reassessment",
+          "Escalate for altered LOC",
+          "Cooling measures if thyroid storm",
+          "Continuous monitoring if unstable",
+          "Prevent aspiration (vomiting)"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Establish IV access; begin fluids per orders/protocol",
+          "Monitor glucose/electrolytes per protocol",
+          "Notify provider and prepare insulin protocol per orders",
+          "Treat hypoglycemia per protocol (oral/IV)",
+          "Recheck glucose in 15 min (hypo)",
+          "Establish IV access",
+          "Start fluids per orders (DKA)",
+          "Prepare insulin protocol per orders",
+          "Monitor electrolytes per protocol",
+          "Anti-emetics as ordered",
+          "Cooling measures per protocol (thyroid storm)",
+          "Continuous monitoring",
+          "Notify provider urgently for endocrine emergency",
+          "Encourage meal/snack after correction (hypo)",
+          "Strict I&O"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Frequent vitals and mental status checks",
+          "Monitor urine output and glucose trends",
+          "Recheck glucose at protocol interval",
+          "Monitor mental status",
+          "Trend vitals and hydration",
+          "Monitor urine output",
+          "Monitor for arrhythmias if electrolytes abnormal",
+          "Assess nausea/vomiting improvement",
+          "Monitor response to fluids/insulin",
+          "Document trends with time",
+          "Escalate if deterioration",
+          "Repeat ketones if ordered"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "25 F",
+      "system": "Endocrine",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Vomiting and deep rapid breathing",
+      "history": "T1DM Insulin (missed) NKDA",
+      "vitals": "{\"T\": \"37.4°C\", \"HR\": \"118\", \"RR\": \"32\", \"BP\": \"102/66\", \"SpO2\": \"97% RA\"}",
+      "findings": "Kussmaul breathing; Fruity breath; Dehydration"
+    },
+    "scenario_text": "A 25-year-old female presents to the emergency department complaining of vomiting and deep rapid breathing. She reports kussmaul breathing; fruity breath; dehydration. She has a history of T1DM; current/recent medications include Insulin (missed); allergies: NKDA. On arrival, vital signs show BP 102/66, HR 118, RR 32, temperature 37.4°C, oxygen saturation 97% RA. During assessment, she appears unwell and states her symptoms are concerning."
+  },
+  {
+    "id": "adult_hypogly_01",
+    "title": "Hypoglycemia – Confusion and Sweating",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Endocrine",
+    "setting": "Ward",
+    "patient": {
+      "age": 50,
+      "sex": "M"
+    },
+    "chiefComplaint": "Confusion and diaphoresis",
+    "history": {
+      "pmh": [
+        "Type 2 Diabetes"
+      ],
+      "meds": [
+        "Insulin"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "36.6°C",
+      "HR": "96",
+      "RR": "18",
+      "BP": "128/76",
+      "SpO2": "98% RA"
+    },
+    "findings": [
+      "Sweating",
+      "Tremor",
+      "Irritable"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize hypoglycemia and treat immediately per protocol",
+        "Recheck glucose and identify cause",
+        "Prevent recurrence and ensure safety"
+      ],
+      "keyAssessments": [
+        "Point-of-care glucose",
+        "LOC and ability to swallow",
+        "Medication/meal timing"
+      ],
+      "interventions": [
+        "Give fast-acting glucose per protocol if alert; IV dextrose/glucagon per policy if not",
+        "Notify provider if severe or recurrent",
+        "Reinforce meal/snack after correction per protocol"
+      ],
+      "reassessment": [
+        "Recheck glucose in 15 minutes per protocol",
+        "Monitor symptoms and LOC"
+      ],
+      "sbar": {
+        "S": "50M confused/diaphoretic; suspected low glucose.",
+        "B": "T2DM on insulin.",
+        "A": "Hypoglycemia symptoms; needs immediate protocol treatment.",
+        "R": "Treat per hypoglycemia protocol; evaluate cause and prevent recurrence."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Point-of-care glucose",
+          "LOC and ability to swallow",
+          "Medication/meal timing",
+          "Ketones (blood/urine) if indicated",
+          "Hydration status (dry mucosa, skin turgor)",
+          "Kussmaul breathing",
+          "Mental status changes",
+          "Insulin adherence history",
+          "Nausea/vomiting",
+          "Temp/fever",
+          "Electrolyte risk signs (weakness/palpitations)",
+          "Urine output",
+          "Weight change",
+          "Tremor/agitation (thyroid storm)",
+          "HR/BP trend"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize hypoglycemia and treat immediately per protocol",
+          "Recheck glucose and identify cause",
+          "Prevent recurrence and ensure safety",
+          "Immediate glucose correction per protocol (if low)",
+          "IV access and fluids per orders (DKA)",
+          "Monitor electrolytes per protocol",
+          "Identify cause (missed insulin/meal)",
+          "Frequent reassessment",
+          "Escalate for altered LOC",
+          "Cooling measures if thyroid storm",
+          "Continuous monitoring if unstable",
+          "Prevent aspiration (vomiting)"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Give fast-acting glucose per protocol if alert; IV dextrose/glucagon per policy if not",
+          "Notify provider if severe or recurrent",
+          "Reinforce meal/snack after correction per protocol",
+          "Treat hypoglycemia per protocol (oral/IV)",
+          "Recheck glucose in 15 min (hypo)",
+          "Establish IV access",
+          "Start fluids per orders (DKA)",
+          "Prepare insulin protocol per orders",
+          "Monitor electrolytes per protocol",
+          "Anti-emetics as ordered",
+          "Cooling measures per protocol (thyroid storm)",
+          "Continuous monitoring",
+          "Notify provider urgently for endocrine emergency",
+          "Encourage meal/snack after correction (hypo)",
+          "Strict I&O"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Recheck glucose in 15 minutes per protocol",
+          "Monitor symptoms and LOC",
+          "Recheck glucose at protocol interval",
+          "Monitor mental status",
+          "Trend vitals and hydration",
+          "Monitor urine output",
+          "Monitor for arrhythmias if electrolytes abnormal",
+          "Assess nausea/vomiting improvement",
+          "Monitor response to fluids/insulin",
+          "Document trends with time",
+          "Escalate if deterioration",
+          "Repeat ketones if ordered"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "50 M",
+      "system": "Endocrine",
+      "setting": "Ward",
+      "ward": "",
+      "chief_complaint": "Confusion and diaphoresis",
+      "history": "Type 2 Diabetes Insulin NKDA",
+      "vitals": "{\"T\": \"36.6°C\", \"HR\": \"96\", \"RR\": \"18\", \"BP\": \"128/76\", \"SpO2\": \"98% RA\"}",
+      "findings": "Sweating; Tremor; Irritable"
+    },
+    "scenario_text": "A 50-year-old male presents to the ward complaining of confusion and diaphoresis. He reports sweating; tremor; irritable. He has a history of Type 2 Diabetes; current/recent medications include Insulin; allergies: NKDA. On arrival, vital signs show BP 128/76, HR 96, RR 18, temperature 36.6°C, oxygen saturation 98% RA. During assessment, he appears unwell and states his symptoms are concerning."
+  },
+  {
+    "id": "adult_thyroid_storm_01",
+    "title": "Thyroid Storm – Fever, Tachycardia, Agitation",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Endocrine",
+    "setting": "ER",
+    "patient": {
+      "age": 39,
+      "sex": "F"
+    },
+    "chiefComplaint": "Fever, palpitations, agitation",
+    "history": {
+      "pmh": [
+        "Hyperthyroidism"
+      ],
+      "meds": [
+        "Stopped antithyroid meds"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "39.5°C",
+      "HR": "150",
+      "RR": "24",
+      "BP": "148/72",
+      "SpO2": "97% RA"
+    },
+    "findings": [
+      "Agitated",
+      "Diaphoretic",
+      "Tremor"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize possible thyroid storm (high risk)",
+        "Support ABCs and cooling measures",
+        "Urgent escalation for protocol management"
+      ],
+      "keyAssessments": [
+        "Temp, HR, mental status",
+        "Cardiac symptoms, dehydration",
+        "Medication history (stopped therapy)"
+      ],
+      "interventions": [
+        "Continuous monitoring; IV access; cooling measures per protocol",
+        "Notify provider urgently for endocrine emergency pathway",
+        "Prepare ordered labs/ECG; support hydration per orders"
+      ],
+      "reassessment": [
+        "Frequent vitals and mental status checks",
+        "Monitor for arrhythmias or hypotension"
+      ],
+      "sbar": {
+        "S": "39F febrile, tachycardic, agitated with HR 150.",
+        "B": "Hyperthyroidism; stopped meds.",
+        "A": "Possible thyroid storm.",
+        "R": "Urgent provider review and endocrine emergency orders."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Temp, HR, mental status",
+          "Cardiac symptoms, dehydration",
+          "Medication history (stopped therapy)",
+          "Point-of-care glucose",
+          "Ketones (blood/urine) if indicated",
+          "Hydration status (dry mucosa, skin turgor)",
+          "Kussmaul breathing",
+          "Mental status changes",
+          "Medication/meal timing",
+          "Insulin adherence history",
+          "Nausea/vomiting",
+          "Temp/fever",
+          "Electrolyte risk signs (weakness/palpitations)",
+          "Urine output",
+          "Weight change"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize possible thyroid storm (high risk)",
+          "Support ABCs and cooling measures",
+          "Urgent escalation for protocol management",
+          "Immediate glucose correction per protocol (if low)",
+          "IV access and fluids per orders (DKA)",
+          "Monitor electrolytes per protocol",
+          "Identify cause (missed insulin/meal)",
+          "Frequent reassessment",
+          "Escalate for altered LOC",
+          "Cooling measures if thyroid storm",
+          "Continuous monitoring if unstable",
+          "Prevent aspiration (vomiting)"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Continuous monitoring; IV access; cooling measures per protocol",
+          "Notify provider urgently for endocrine emergency pathway",
+          "Prepare ordered labs/ECG; support hydration per orders",
+          "Treat hypoglycemia per protocol (oral/IV)",
+          "Recheck glucose in 15 min (hypo)",
+          "Establish IV access",
+          "Start fluids per orders (DKA)",
+          "Prepare insulin protocol per orders",
+          "Monitor electrolytes per protocol",
+          "Anti-emetics as ordered",
+          "Cooling measures per protocol (thyroid storm)",
+          "Continuous monitoring",
+          "Notify provider urgently for endocrine emergency",
+          "Encourage meal/snack after correction (hypo)",
+          "Strict I&O"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Frequent vitals and mental status checks",
+          "Monitor for arrhythmias or hypotension",
+          "Recheck glucose at protocol interval",
+          "Monitor mental status",
+          "Trend vitals and hydration",
+          "Monitor urine output",
+          "Monitor for arrhythmias if electrolytes abnormal",
+          "Assess nausea/vomiting improvement",
+          "Monitor response to fluids/insulin",
+          "Document trends with time",
+          "Escalate if deterioration",
+          "Repeat ketones if ordered"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "39 F",
+      "system": "Endocrine",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Fever, palpitations, agitation",
+      "history": "Hyperthyroidism Stopped antithyroid meds NKDA",
+      "vitals": "{\"T\": \"39.5°C\", \"HR\": \"150\", \"RR\": \"24\", \"BP\": \"148/72\", \"SpO2\": \"97% RA\"}",
+      "findings": "Agitated; Diaphoretic; Tremor"
+    },
+    "scenario_text": "A 39-year-old female presents to the emergency department complaining of fever, palpitations, agitation. She reports agitated; diaphoretic; tremor. She has a history of Hyperthyroidism; current/recent medications include Stopped antithyroid meds; allergies: NKDA. On arrival, vital signs show BP 148/72, HR 150, RR 24, temperature 39.5°C, oxygen saturation 97% RA. During assessment, she appears unwell and states her symptoms are concerning."
+  },
+  {
+    "id": "adult_aki_01",
+    "title": "Acute Kidney Injury – Reduced Urine Output",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Renal",
+    "setting": "Ward",
+    "patient": {
+      "age": 72,
+      "sex": "F"
+    },
+    "chiefComplaint": "Low urine output",
+    "history": {
+      "pmh": [
+        "Dehydration",
+        "Recent vomiting"
+      ],
+      "meds": [],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "36.8°C",
+      "HR": "102",
+      "RR": "18",
+      "BP": "96/60",
+      "SpO2": "98% RA"
+    },
+    "findings": [
+      "Oliguria",
+      "Dry mucous membranes",
+      "Weakness"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize AKI risk + hypovolemia",
+        "Support circulation and monitor output",
+        "Escalate with worsening hypotension or anuria"
+      ],
+      "keyAssessments": [
+        "Urine output trend, bladder scan if ordered",
+        "Hydration status, BP/HR",
+        "Recent losses (vomiting/diarrhea)"
+      ],
+      "interventions": [
+        "Strict I&O; daily weights",
+        "IV access; fluids per orders; avoid nephrotoxins per policy",
+        "Notify provider of low UO/hypotension; prepare labs per order"
+      ],
+      "reassessment": [
+        "Reassess BP, UO, symptoms after fluids",
+        "Monitor for pulmonary edema with fluids in at-risk patients"
+      ],
+      "sbar": {
+        "S": "72F low urine output with BP 96/60.",
+        "B": "Recent vomiting/dehydration.",
+        "A": "Suspected prerenal AKI risk.",
+        "R": "Provider review for fluids/labs; continue strict monitoring."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Urine output trend, bladder scan if ordered",
+          "Hydration status, BP/HR",
+          "Recent losses (vomiting/diarrhea)",
+          "Urine output trend",
+          "Daily weight trend",
+          "Hydration status",
+          "Bladder scan if ordered",
+          "BP/HR trends",
+          "Medication review (ACEi/diuretics/nephrotoxins)",
+          "Recent GI losses",
+          "Edema/fluid overload signs",
+          "Electrolyte symptoms (weakness/palpitations)",
+          "ECG readiness (hyperK)",
+          "Renal history (CKD)",
+          "Mental status changes"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize AKI risk + hypovolemia",
+          "Support circulation and monitor output",
+          "Escalate with worsening hypotension or anuria",
+          "Strict I&O and monitor output",
+          "Assess volume status (hypovolemia vs overload)",
+          "Escalate for anuria/hypotension",
+          "Cardiac monitoring if hyperK risk",
+          "Avoid nephrotoxins",
+          "Prepare labs per orders",
+          "IV access if indicated",
+          "Notify provider",
+          "Trend vitals"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Strict I&O; daily weights",
+          "IV access; fluids per orders; avoid nephrotoxins per policy",
+          "Notify provider of low UO/hypotension; prepare labs per order",
+          "Strict I&O; measure urine accurately",
+          "Daily weights",
+          "IV access and fluids per orders (prerenal AKI)",
+          "Avoid nephrotoxins per policy",
+          "Prepare ordered labs (K+, Cr)",
+          "Cardiac monitoring for hyperK",
+          "Obtain ECG per protocol",
+          "Notify provider urgently for hyperK/arrhythmia risk",
+          "Prepare ordered treatments (per protocol/orders)",
+          "Monitor for pulmonary edema",
+          "Patient safety/fall precautions",
+          "Bladder scan per orders"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Reassess BP, UO, symptoms after fluids",
+          "Monitor for pulmonary edema with fluids in at-risk patients",
+          "Trend urine output after interventions",
+          "Trend BP/HR response",
+          "Monitor for pulmonary edema",
+          "Repeat labs if ordered",
+          "Monitor rhythm changes",
+          "Assess weakness/palpitations",
+          "Reassess hydration signs",
+          "Document trends",
+          "Escalate if worsening",
+          "Monitor mental status"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "72 F",
+      "system": "Renal",
+      "setting": "Ward",
+      "ward": "",
+      "chief_complaint": "Low urine output",
+      "history": "Dehydration; Recent vomiting  NKDA",
+      "vitals": "{\"T\": \"36.8°C\", \"HR\": \"102\", \"RR\": \"18\", \"BP\": \"96/60\", \"SpO2\": \"98% RA\"}",
+      "findings": "Oliguria; Dry mucous membranes; Weakness"
+    },
+    "scenario_text": "A 72-year-old female presents to the ward complaining of low urine output. She reports oliguria; dry mucous membranes; weakness. She has a history of Dehydration, Recent vomiting; allergies: NKDA. On arrival, vital signs show BP 96/60, HR 102, RR 18, temperature 36.8°C, oxygen saturation 98% RA. During assessment, she appears unwell and states her symptoms are concerning."
+  },
+  {
+    "id": "adult_hyperk_01",
+    "title": "Hyperkalemia – Weakness and ECG Changes",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Renal",
+    "setting": "ER",
+    "patient": {
+      "age": 65,
+      "sex": "M"
+    },
+    "chiefComplaint": "Weakness and palpitations",
+    "history": {
+      "pmh": [
+        "CKD"
+      ],
+      "meds": [
+        "ACE inhibitor"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "36.7°C",
+      "HR": "96",
+      "RR": "18",
+      "BP": "138/80",
+      "SpO2": "98% RA"
+    },
+    "findings": [
+      "Generalized weakness",
+      "Nausea"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize hyperkalemia risk (cardiac)",
+        "Continuous cardiac monitoring",
+        "Urgent escalation for treatment orders"
+      ],
+      "keyAssessments": [
+        "ECG/monitor rhythm, symptoms",
+        "Recent labs if known; renal history",
+        "Medication review (ACEi)"
+      ],
+      "interventions": [
+        "Place on monitor; obtain ECG per protocol",
+        "Notify provider urgently; prepare ordered labs/treatments",
+        "Ensure IV access; monitor for arrhythmias"
+      ],
+      "reassessment": [
+        "Frequent vitals and rhythm monitoring",
+        "Monitor response to ordered treatment and repeat labs"
+      ],
+      "sbar": {
+        "S": "65M CKD with weakness/palpitations; concern for hyperkalemia.",
+        "B": "CKD; on ACE inhibitor.",
+        "A": "Potential life-threatening electrolyte imbalance; needs monitoring.",
+        "R": "Urgent provider review; ECG/monitoring and treatment orders."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "ECG/monitor rhythm, symptoms",
+          "Recent labs if known; renal history",
+          "Medication review (ACEi)",
+          "Urine output trend",
+          "Daily weight trend",
+          "Hydration status",
+          "Bladder scan if ordered",
+          "BP/HR trends",
+          "Medication review (ACEi/diuretics/nephrotoxins)",
+          "Recent GI losses",
+          "Edema/fluid overload signs",
+          "Electrolyte symptoms (weakness/palpitations)",
+          "ECG readiness (hyperK)",
+          "Renal history (CKD)",
+          "Mental status changes"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize hyperkalemia risk (cardiac)",
+          "Continuous cardiac monitoring",
+          "Urgent escalation for treatment orders",
+          "Strict I&O and monitor output",
+          "Assess volume status (hypovolemia vs overload)",
+          "Escalate for anuria/hypotension",
+          "Cardiac monitoring if hyperK risk",
+          "Avoid nephrotoxins",
+          "Prepare labs per orders",
+          "IV access if indicated",
+          "Notify provider",
+          "Trend vitals"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Place on monitor; obtain ECG per protocol",
+          "Notify provider urgently; prepare ordered labs/treatments",
+          "Ensure IV access; monitor for arrhythmias",
+          "Strict I&O; measure urine accurately",
+          "Daily weights",
+          "IV access and fluids per orders (prerenal AKI)",
+          "Avoid nephrotoxins per policy",
+          "Prepare ordered labs (K+, Cr)",
+          "Cardiac monitoring for hyperK",
+          "Obtain ECG per protocol",
+          "Notify provider urgently for hyperK/arrhythmia risk",
+          "Prepare ordered treatments (per protocol/orders)",
+          "Monitor for pulmonary edema",
+          "Patient safety/fall precautions",
+          "Bladder scan per orders"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Frequent vitals and rhythm monitoring",
+          "Monitor response to ordered treatment and repeat labs",
+          "Trend urine output after interventions",
+          "Trend BP/HR response",
+          "Monitor for pulmonary edema",
+          "Repeat labs if ordered",
+          "Monitor rhythm changes",
+          "Assess weakness/palpitations",
+          "Reassess hydration signs",
+          "Document trends",
+          "Escalate if worsening",
+          "Monitor mental status"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "65 M",
+      "system": "Renal",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Weakness and palpitations",
+      "history": "CKD ACE inhibitor NKDA",
+      "vitals": "{\"T\": \"36.7°C\", \"HR\": \"96\", \"RR\": \"18\", \"BP\": \"138/80\", \"SpO2\": \"98% RA\"}",
+      "findings": "Generalized weakness; Nausea"
+    },
+    "scenario_text": "A 65-year-old male presents to the emergency department complaining of weakness and palpitations. He reports generalized weakness; nausea. He has a history of CKD; current/recent medications include ACE inhibitor; allergies: NKDA. On arrival, vital signs show BP 138/80, HR 96, RR 18, temperature 36.7°C, oxygen saturation 98% RA. During assessment, he appears unwell and states his symptoms are concerning."
+  },
+  {
+    "id": "adult_gibleed_01",
+    "title": "GI Bleed – Melena and Dizziness",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "GI",
+    "setting": "ER",
+    "patient": {
+      "age": 70,
+      "sex": "M"
+    },
+    "chiefComplaint": "Black stools and dizziness",
+    "history": {
+      "pmh": [
+        "Peptic ulcer disease"
+      ],
+      "meds": [
+        "NSAID use"
+      ],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "36.8°C",
+      "HR": "112",
+      "RR": "20",
+      "BP": "94/58",
+      "SpO2": "98% RA"
+    },
+    "findings": [
+      "Melena",
+      "Pale",
+      "Orthostatic symptoms"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize possible GI bleed with hypovolemia",
+        "Support circulation and escalate urgently",
+        "Prepare for ordered labs/transfusion pathway"
+      ],
+      "keyAssessments": [
+        "Vitals/orthostatics, perfusion",
+        "Stool appearance and bleeding history",
+        "Med history (NSAIDs, anticoagulants)"
+      ],
+      "interventions": [
+        "IV access x2 if protocol; monitor vitals closely",
+        "Notify provider urgently; prepare labs/type&screen per orders",
+        "Keep NPO if ordered; safety/fall precautions"
+      ],
+      "reassessment": [
+        "Frequent vitals and mental status",
+        "Monitor for ongoing bleeding, worsening hypotension"
+      ],
+      "sbar": {
+        "S": "70M melena with dizziness and BP 94/58.",
+        "B": "PUD; NSAID use.",
+        "A": "Possible GI bleed with hypovolemia.",
+        "R": "Urgent provider review; labs/type&screen and management orders."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Vitals/orthostatics, perfusion",
+          "Stool appearance and bleeding history",
+          "Med history (NSAIDs, anticoagulants)",
+          "Abdominal pain (location/quality)",
+          "N/V severity",
+          "Stool appearance (melena/hematemesis)",
+          "Orthostatic vitals",
+          "Perfusion signs (pallor, cap refill)",
+          "Medication history (NSAIDs/anticoagulants)",
+          "Hydration status",
+          "Urine output",
+          "Abdominal guarding/rigidity",
+          "Bowel sounds",
+          "Temp/fever",
+          "Blood glucose if diabetic"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize possible GI bleed with hypovolemia",
+          "Support circulation and escalate urgently",
+          "Prepare for ordered labs/transfusion pathway",
+          "Support circulation/perfusion",
+          "IV access and monitoring",
+          "Prepare labs/type & screen if bleed",
+          "Pain control per orders",
+          "NPO if ordered",
+          "Monitor for shock/rapid deterioration",
+          "Notify provider urgently if hypotensive",
+          "Strict I&O",
+          "Antiemetics per orders"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "IV access x2 if protocol; monitor vitals closely",
+          "Notify provider urgently; prepare labs/type&screen per orders",
+          "Keep NPO if ordered; safety/fall precautions",
+          "Establish IV access (consider x2 per protocol)",
+          "Monitor vitals frequently",
+          "Prepare labs/type & screen per orders",
+          "Keep NPO if ordered",
+          "Administer fluids/analgesia per orders",
+          "Administer antiemetics per orders",
+          "Safety/fall precautions",
+          "Assess stool/emesis and quantify",
+          "Notify provider urgently for hypotension/ongoing bleed",
+          "Document time-stamped vitals + symptoms",
+          "Prepare imaging per orders",
+          "Strict I&O"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Frequent vitals and mental status",
+          "Monitor for ongoing bleeding, worsening hypotension",
+          "Trend BP/HR/orthostatics",
+          "Monitor mental status",
+          "Assess ongoing bleeding",
+          "Reassess pain after analgesia",
+          "Monitor nausea/vomiting response",
+          "Track urine output",
+          "Monitor abdominal signs (guarding)",
+          "Document trends with time",
+          "Escalate if deterioration",
+          "Monitor for shock"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "70 M",
+      "system": "GI",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Black stools and dizziness",
+      "history": "Peptic ulcer disease NSAID use NKDA",
+      "vitals": "{\"T\": \"36.8°C\", \"HR\": \"112\", \"RR\": \"20\", \"BP\": \"94/58\", \"SpO2\": \"98% RA\"}",
+      "findings": "Melena; Pale; Orthostatic symptoms"
+    },
+    "scenario_text": "A 70-year-old male presents to the emergency department complaining of black stools and dizziness. He reports melena; pale; orthostatic symptoms. He has a history of Peptic ulcer disease; current/recent medications include NSAID use; allergies: NKDA. On arrival, vital signs show BP 94/58, HR 112, RR 20, temperature 36.8°C, oxygen saturation 98% RA. During assessment, he appears unwell and states his symptoms are concerning."
+  },
+  {
+    "id": "adult_pancreatitis_01",
+    "title": "Acute Pancreatitis – Severe Epigastric Pain",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "GI",
+    "setting": "ER",
+    "patient": {
+      "age": 48,
+      "sex": "M"
+    },
+    "chiefComplaint": "Severe epigastric pain radiating to back",
+    "history": {
+      "pmh": [
+        "Alcohol use"
+      ],
+      "meds": [],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "37.9°C",
+      "HR": "116",
+      "RR": "22",
+      "BP": "110/68",
+      "SpO2": "97% RA"
+    },
+    "findings": [
+      "Severe pain",
+      "Nausea/vomiting",
+      "Guarding"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Pain control/supportive care per orders",
+        "Assess hydration and complications",
+        "Monitor for deterioration"
+      ],
+      "keyAssessments": [
+        "Pain assessment, hydration status",
+        "Vitals, urine output",
+        "Signs of shock/resp compromise"
+      ],
+      "interventions": [
+        "IV access; fluids and analgesia per orders",
+        "NPO as ordered; antiemetics per order",
+        "Monitor vitals/I&O; notify provider if worsening"
+      ],
+      "reassessment": [
+        "Reassess pain, vitals, urine output",
+        "Monitor for hypotension, increasing RR, decreased LOC"
+      ],
+      "sbar": {
+        "S": "48M severe epigastric pain radiating to back with vomiting.",
+        "B": "Alcohol use history.",
+        "A": "Suspected pancreatitis; needs supportive management.",
+        "R": "Provider review for pancreatitis pathway orders; continue monitoring and supportive care."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Pain assessment, hydration status",
+          "Vitals, urine output",
+          "Signs of shock/resp compromise",
+          "Abdominal pain (location/quality)",
+          "N/V severity",
+          "Stool appearance (melena/hematemesis)",
+          "Orthostatic vitals",
+          "Perfusion signs (pallor, cap refill)",
+          "Medication history (NSAIDs/anticoagulants)",
+          "Hydration status",
+          "Urine output",
+          "Abdominal guarding/rigidity",
+          "Bowel sounds",
+          "Temp/fever",
+          "Blood glucose if diabetic"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Pain control/supportive care per orders",
+          "Assess hydration and complications",
+          "Monitor for deterioration",
+          "Support circulation/perfusion",
+          "IV access and monitoring",
+          "Prepare labs/type & screen if bleed",
+          "Pain control per orders",
+          "NPO if ordered",
+          "Monitor for shock/rapid deterioration",
+          "Notify provider urgently if hypotensive",
+          "Strict I&O",
+          "Antiemetics per orders"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "IV access; fluids and analgesia per orders",
+          "NPO as ordered; antiemetics per order",
+          "Monitor vitals/I&O; notify provider if worsening",
+          "Establish IV access (consider x2 per protocol)",
+          "Monitor vitals frequently",
+          "Prepare labs/type & screen per orders",
+          "Keep NPO if ordered",
+          "Administer fluids/analgesia per orders",
+          "Administer antiemetics per orders",
+          "Safety/fall precautions",
+          "Assess stool/emesis and quantify",
+          "Notify provider urgently for hypotension/ongoing bleed",
+          "Document time-stamped vitals + symptoms",
+          "Prepare imaging per orders",
+          "Strict I&O"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Reassess pain, vitals, urine output",
+          "Monitor for hypotension, increasing RR, decreased LOC",
+          "Trend BP/HR/orthostatics",
+          "Monitor mental status",
+          "Assess ongoing bleeding",
+          "Reassess pain after analgesia",
+          "Monitor nausea/vomiting response",
+          "Track urine output",
+          "Monitor abdominal signs (guarding)",
+          "Document trends with time",
+          "Escalate if deterioration",
+          "Monitor for shock"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "48 M",
+      "system": "GI",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Severe epigastric pain radiating to back",
+      "history": "Alcohol use  NKDA",
+      "vitals": "{\"T\": \"37.9°C\", \"HR\": \"116\", \"RR\": \"22\", \"BP\": \"110/68\", \"SpO2\": \"97% RA\"}",
+      "findings": "Severe pain; Nausea/vomiting; Guarding"
+    },
+    "scenario_text": "A 48-year-old male presents to the emergency department complaining of severe epigastric pain radiating to back. He reports severe pain; nausea/vomiting; guarding. He has a history of Alcohol use; allergies: NKDA. On arrival, vital signs show BP 110/68, HR 116, RR 22, temperature 37.9°C, oxygen saturation 97% RA. During assessment, he appears unwell and states his symptoms are concerning."
+  },
+  {
+    "id": "adult_sepsis_01",
+    "title": "Sepsis – Fever, Hypotension, Confusion",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Infection",
+    "setting": "ER",
+    "patient": {
+      "age": 67,
+      "sex": "M"
+    },
+    "chiefComplaint": "Fever and confusion",
+    "history": {
+      "pmh": [
+        "Recent UTI"
+      ],
+      "meds": [],
+      "allergies": [
+        "NKDA"
+      ]
+    },
+    "vitals": {
+      "T": "39.2°C",
+      "HR": "124",
+      "RR": "26",
+      "BP": "90/54",
+      "SpO2": "94% RA"
+    },
+    "findings": [
+      "Confused",
+      "Warm skin",
+      "Chills"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize sepsis and initiate escalation",
+        "Support circulation/oxygenation",
+        "Begin sepsis bundle per protocol/orders"
+      ],
+      "keyAssessments": [
+        "Vitals trends, mental status",
+        "Possible infection source symptoms",
+        "Urine output and perfusion"
+      ],
+      "interventions": [
+        "IV access; draw cultures/lactate per protocol/orders",
+        "Fluids and antibiotics per orders; monitor response",
+        "Continuous monitoring; notify provider/rapid response if worsening"
+      ],
+      "reassessment": [
+        "Frequent BP, HR, mental status; urine output",
+        "Monitor for shock: persistent hypotension, rising RR, decreased LOC"
+      ],
+      "sbar": {
+        "S": "67M febrile and confused with BP 90/54.",
+        "B": "Recent UTI history.",
+        "A": "Meets sepsis concern with hypotension and tachycardia.",
+        "R": "Urgent sepsis pathway orders; fluids/antibiotics and close monitoring."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Vitals trends, mental status",
+          "Possible infection source symptoms",
+          "Urine output and perfusion",
+          "Temp trend/fever",
+          "Mental status/confusion",
+          "BP/HR/RR trends",
+          "SpO2 and oxygen need",
+          "Possible source symptoms (urine/resp/wound)",
+          "Urine output",
+          "Skin perfusion (warm/cool, mottling)",
+          "Lactate readiness (sepsis)",
+          "Cultures readiness",
+          "Allergy history (if anaphylaxis)",
+          "Airway swelling/stridor (anaphylaxis)",
+          "Rash/hives assessment"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize sepsis and initiate escalation",
+          "Support circulation/oxygenation",
+          "Begin sepsis bundle per protocol/orders",
+          "Recognize sepsis/anaphylaxis and escalate",
+          "Support airway/breathing/circulation",
+          "Initiate bundle/protocol per orders",
+          "IV access and monitoring",
+          "Oxygenation support",
+          "Prepare cultures/lactate per protocol/orders",
+          "Fluids/antibiotics per orders",
+          "Emergency meds per protocol/orders",
+          "Frequent reassessment"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "IV access; draw cultures/lactate per protocol/orders",
+          "Fluids and antibiotics per orders; monitor response",
+          "Continuous monitoring; notify provider/rapid response if worsening",
+          "Activate sepsis/anaphylaxis pathway",
+          "Apply oxygen per protocol",
+          "Establish IV access",
+          "Draw cultures/lactate per protocol/orders",
+          "Administer fluids per orders",
+          "Administer antibiotics per orders",
+          "Prepare emergency meds per protocol/orders (do not self-dose)",
+          "Continuous monitoring",
+          "Position as tolerated; maintain airway equipment ready",
+          "Cooling measures if febrile per protocol",
+          "Notify provider/rapid response",
+          "Track urine output"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Frequent BP, HR, mental status; urine output",
+          "Monitor for shock: persistent hypotension, rising RR, decreased LOC",
+          "Trend BP/HR/RR",
+          "Reassess mental status",
+          "Monitor SpO2/resp distress",
+          "Track urine output",
+          "Monitor for shock signs",
+          "Reassess rash/swelling/airway",
+          "Monitor response to fluids/antibiotics",
+          "Document trends with time",
+          "Escalate if deterioration",
+          "Recheck temp"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "67 M",
+      "system": "Infection",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Fever and confusion",
+      "history": "Recent UTI  NKDA",
+      "vitals": "{\"T\": \"39.2°C\", \"HR\": \"124\", \"RR\": \"26\", \"BP\": \"90/54\", \"SpO2\": \"94% RA\"}",
+      "findings": "Confused; Warm skin; Chills"
+    },
+    "scenario_text": "A 67-year-old male presents to the emergency department complaining of fever and confusion. He reports confused; warm skin; chills. He has a history of Recent UTI; allergies: NKDA. On arrival, vital signs show BP 90/54, HR 124, RR 26, temperature 39.2°C, oxygen saturation 94% RA. During assessment, he appears unwell and states his symptoms are concerning."
+  },
+  {
+    "id": "adult_anaphylaxis_01",
+    "title": "Anaphylaxis – Wheeze, Hives, Hypotension",
+    "yearLevel": 2,
+    "domain": "Adult",
+    "subDomain": "Medical-Surgical",
+    "category": "Infection",
+    "setting": "ER",
+    "patient": {
+      "age": 29,
+      "sex": "F"
+    },
+    "chiefComplaint": "Sudden wheeze and rash after food",
+    "history": {
+      "pmh": [],
+      "meds": [],
+      "allergies": [
+        "Known peanut allergy"
+      ]
+    },
+    "vitals": {
+      "T": "36.7°C",
+      "HR": "132",
+      "RR": "28",
+      "BP": "86/50",
+      "SpO2": "90% RA"
+    },
+    "findings": [
+      "Hives",
+      "Facial swelling",
+      "Wheezing",
+      "Anxious"
+    ],
+    "goldStandard": {
+      "priorities": [
+        "Recognize anaphylaxis and call for emergency help",
+        "Support airway/breathing/circulation",
+        "Prepare for protocol treatment per orders"
+      ],
+      "keyAssessments": [
+        "Airway swelling/stridor, SpO2",
+        "BP/HR and perfusion",
+        "Trigger exposure timing"
+      ],
+      "interventions": [
+        "Activate emergency response; oxygen; position as tolerated",
+        "Prepare and administer emergency meds per protocol/orders (do not dose independently)",
+        "Continuous monitoring; IV access; prepare fluids per orders"
+      ],
+      "reassessment": [
+        "Frequent vitals and airway checks",
+        "Watch for biphasic reaction or worsening respiratory distress"
+      ],
+      "sbar": {
+        "S": "29F acute wheeze, hives, facial swelling with BP 86/50.",
+        "B": "Known peanut allergy; exposure likely.",
+        "A": "Anaphylaxis with hypotension and respiratory involvement.",
+        "R": "Immediate emergency management per anaphylaxis protocol and provider orders."
+      }
+    },
+    "ui": {
+      "assessment": {
+        "checklist": [
+          "Airway swelling/stridor, SpO2",
+          "BP/HR and perfusion",
+          "Trigger exposure timing",
+          "Temp trend/fever",
+          "Mental status/confusion",
+          "BP/HR/RR trends",
+          "SpO2 and oxygen need",
+          "Possible source symptoms (urine/resp/wound)",
+          "Urine output",
+          "Skin perfusion (warm/cool, mottling)",
+          "Lactate readiness (sepsis)",
+          "Cultures readiness",
+          "Allergy history (if anaphylaxis)",
+          "Airway swelling/stridor (anaphylaxis)",
+          "Rash/hives assessment"
+        ],
+        "labs": [],
+        "imaging": [],
+        "exams": [],
+        "redFlags": []
+      },
+      "prioritize": {
+        "options": [
+          "Recognize anaphylaxis and call for emergency help",
+          "Support airway/breathing/circulation",
+          "Prepare for protocol treatment per orders",
+          "Recognize sepsis/anaphylaxis and escalate",
+          "Initiate bundle/protocol per orders",
+          "IV access and monitoring",
+          "Oxygenation support",
+          "Prepare cultures/lactate per protocol/orders",
+          "Fluids/antibiotics per orders",
+          "Emergency meds per protocol/orders",
+          "Frequent reassessment",
+          "Identify source/trigger"
+        ]
+      },
+      "interventions": {
+        "options": [
+          "Activate emergency response; oxygen; position as tolerated",
+          "Prepare and administer emergency meds per protocol/orders (do not dose independently)",
+          "Continuous monitoring; IV access; prepare fluids per orders",
+          "Activate sepsis/anaphylaxis pathway",
+          "Apply oxygen per protocol",
+          "Establish IV access",
+          "Draw cultures/lactate per protocol/orders",
+          "Administer fluids per orders",
+          "Administer antibiotics per orders",
+          "Prepare emergency meds per protocol/orders (do not self-dose)",
+          "Continuous monitoring",
+          "Position as tolerated; maintain airway equipment ready",
+          "Cooling measures if febrile per protocol",
+          "Notify provider/rapid response",
+          "Track urine output"
+        ],
+        "protocols": [],
+        "medications": []
+      },
+      "reassess": {
+        "options": [
+          "Frequent vitals and airway checks",
+          "Watch for biphasic reaction or worsening respiratory distress",
+          "Trend BP/HR/RR",
+          "Reassess mental status",
+          "Monitor SpO2/resp distress",
+          "Track urine output",
+          "Monitor for shock signs",
+          "Reassess rash/swelling/airway",
+          "Monitor response to fluids/antibiotics",
+          "Document trends with time",
+          "Escalate if deterioration",
+          "Recheck temp"
+        ]
+      }
+    },
+    "intake_gold": {
+      "demographics": "29 F",
+      "system": "Infection",
+      "setting": "ER",
+      "ward": "",
+      "chief_complaint": "Sudden wheeze and rash after food",
+      "history": "Known peanut allergy",
+      "vitals": "{\"T\": \"36.7°C\", \"HR\": \"132\", \"RR\": \"28\", \"BP\": \"86/50\", \"SpO2\": \"90% RA\"}",
+      "findings": "Hives; Facial swelling; Wheezing; Anxious"
+    },
+    "scenario_text": "A 29-year-old female presents to the emergency department complaining of sudden wheeze and rash after food. She reports hives; facial swelling; wheezing; anxious. She has allergies: Known peanut allergy. On arrival, vital signs show BP 86/50, HR 132, RR 28, temperature 36.7°C, oxygen saturation 90% RA. During assessment, she appears uncomfortable and anxious and states her symptoms are concerning."
+  }
+]

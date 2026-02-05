@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "mode_visibility": {
+    "Practice": true,
+    "Exam": true
+  },
+  "items_per_case": 30,
+  "optional_practical_section": true,
+  "show_correct_answers_after_submit": true,
+  "show_rationales_after_submit": true,
+  "shuffle_options": true,
+  "enabled_types": {
+    "mcq": true,
+    "sata": true,
+    "ordered_response": false,
+    "cloze": false,
+    "matrix": false,
+    "evolving_case": false
+  },
+  "separate_grade": {
+    "enabled": true,
+    "max_points_per_case": 30,
+    "weight_vs_reasoning_case_score": 0.5
+  },
+  "client_need_blueprint": {
+    "Physiological Integrity": 0.35,
+    "Safe and Effective Care Environment": 0.25,
+    "Health Promotion and Maintenance": 0.2,
+    "Psychosocial Integrity": 0.2
+  },
+  "show_review_after_finalize": true,
+  "ai_explanations_after_finalize": true,
+  "watermark_enabled": false,
+  "footer_session_code_enabled": true,
+  "one_question_at_a_time": false,
+  "randomize_per_student_session": true,
+  "rotation_enabled": false,
+  "exam_protection_enabled": false,
+  "per_case_items": {
+    "adult_acs_01": 15
+  }
+}

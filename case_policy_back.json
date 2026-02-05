@@ -1,0 +1,65 @@
+{
+  "default_visibility": true,
+  "default_timer_minutes_practice": "unlimited",
+  "default_timer_minutes_exam": "30",
+  "per_case": {
+    "adult_htn_emerg_01": {
+      "visible": true,
+      "timer_minutes_practice": "20",
+      "timer_minutes_exam": "30",
+      "timer_seconds_practice": 1200,
+      "timer_seconds_exam": 1800
+    },
+    "adult_asthma_01": {
+      "visible": true,
+      "timer_minutes_practice": "unlimited",
+      "timer_minutes_exam": "30",
+      "mode_visibility": {
+        "Practice": true,
+        "Exam": true
+      },
+      "timer_seconds_practice": 1800,
+      "timer_seconds_exam": 1800,
+      "availability": {
+        "Practice": {
+          "start": "2026-01-13T09:45:00+03:00",
+          "end": "2026-01-13T17:00:00+03:00"
+        }
+      }
+    },
+    "adult_acs_01": {
+      "mode_visibility": {
+        "Practice": false,
+        "Exam": true
+      },
+      "timer_seconds_practice": 2700,
+      "timer_seconds_exam": 2700,
+      "availability": {
+        "Practice": {
+          "start": "2026-02-02T19:00:00+03:00",
+          "end": "2026-02-02T23:00:00+03:00"
+        },
+        "Exam": {
+          "start": "2026-02-02T23:45:00+03:00",
+          "end": "2026-02-02T23:30:00+03:00"
+        }
+      }
+    },
+    "adult_afib_01": {
+      "mode_visibility": {
+        "Practice": true,
+        "Exam": true
+      },
+      "timer_seconds_practice": 1800,
+      "timer_seconds_exam": 1800,
+      "availability": {}
+    }
+  },
+  "default_timer_seconds_practice": 0,
+  "default_timer_seconds_exam": 0,
+  "visibility_mode": "all",
+  "visible_case_ids": [],
+  "default_attempts_allowed": 4,
+  "show_correct_after_submit": true,
+  "show_rationales_after_submit": true
+}

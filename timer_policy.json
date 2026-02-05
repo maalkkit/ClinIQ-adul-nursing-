@@ -1,0 +1,7 @@
+{
+  "defaults": {
+    "practice_minutes": 60,
+    "exam_minutes": 45
+  },
+  "per_case": {}
+}

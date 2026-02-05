@@ -1,0 +1,15 @@
+{
+  "students": {
+    "student001": {
+      "force_unlock": false,
+      "reset_token": 16
+    },
+    "student006": {
+      "force_unlock": true,
+      "reset_token": 1
+    },
+    "student010": {
+      "force_unlock": true
+    }
+  }
+}

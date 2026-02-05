@@ -1,0 +1,13 @@
+{
+  "default_visibility": true,
+  "default_timer_minutes_practice": 45,
+  "default_timer_minutes_exam": 45,
+  "per_case": {},
+  "default_timer_seconds_practice": 2700,
+  "default_timer_seconds_exam": 2700,
+  "visibility_mode": "all",
+  "visible_case_ids": [],
+  "default_attempts_allowed": 2,
+  "show_correct_after_submit": true,
+  "show_rationales_after_submit": true
+}

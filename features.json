@@ -1,0 +1,9 @@
+{
+  "nclex_validator": true,
+  "nclex_partial_credit": false,
+  "autosave_enabled": true,
+  "lock_case_switch_exam": true,
+  "auto_submit_on_expiry": false,
+  "analytics_dashboard": true,
+  "backup_on_start": true
+}

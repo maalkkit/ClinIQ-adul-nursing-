@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "force_exam_password_only": true,
+  "exam_password_sha256": "",
+  "expires_at": ""
+}

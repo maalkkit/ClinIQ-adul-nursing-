@@ -1,0 +1,78 @@
+{
+  "default_visibility": false,
+  "default_timer_minutes_practice": 60,
+  "default_timer_minutes_exam": 60,
+  "per_case": {
+    "adult_htn_emerg_01": {
+      "visible": true,
+      "timer_minutes_practice": "unlimited",
+      "timer_minutes_exam": "unlimited",
+      "timer_seconds_practice": 0,
+      "timer_seconds_exam": 0
+    },
+    "adult_asthma_01": {
+      "visible": true,
+      "mode_visibility": {
+        "Practice": true,
+        "Exam": true
+      },
+      "availability": {
+        "Practice": {
+          "start": "2026-01-13T09:45:00+03:00",
+          "end": "2026-01-13T17:00:00+03:00"
+        }
+      },
+      "timer_minutes_practice": "unlimited",
+      "timer_minutes_exam": "unlimited",
+      "timer_seconds_practice": 0,
+      "timer_seconds_exam": 0
+    },
+    "adult_acs_01": {
+      "mode_visibility": {
+        "Practice": false,
+        "Exam": true
+      },
+      "availability": {},
+      "timer_seconds_practice": 3600,
+      "timer_seconds_exam": 3600,
+      "timer_minutes_practice": 60,
+      "timer_minutes_exam": 60
+    },
+    "adult_afib_01": {
+      "mode_visibility": {
+        "Practice": true,
+        "Exam": true
+      },
+      "availability": {
+        "Practice": {
+          "start": "2026-02-02T23:00:00+03:00",
+          "end": "2026-02-02T23:00:00+03:00"
+        }
+      },
+      "timer_seconds_practice": 0,
+      "timer_seconds_exam": 0,
+      "timer_minutes_practice": "unlimited",
+      "timer_minutes_exam": "unlimited"
+    },
+    "adult_chf_01": {
+      "mode_visibility": {
+        "Practice": true,
+        "Exam": true
+      },
+      "timer_seconds_practice": 0,
+      "timer_seconds_exam": 0,
+      "availability": {},
+      "timer_minutes_practice": "unlimited",
+      "timer_minutes_exam": "unlimited"
+    }
+  },
+  "default_timer_seconds_practice": 7200,
+  "default_timer_seconds_exam": 7200,
+  "visibility_mode": "selected",
+  "visible_case_ids": [
+    "adult_acs_01"
+  ],
+  "default_attempts_allowed": 1,
+  "show_correct_after_submit": true,
+  "show_rationales_after_submit": true
+}

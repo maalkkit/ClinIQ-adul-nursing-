@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "require_consent": true,
+  "anonymize_student": true,
+  "collect_reflection": true,
+  "collect_answer_change_behavior": true,
+  "collect_section_performance": true,
+  "collect_reliability_placeholders": true,
+  "consent_text": "Research Mode: Your anonymous performance data may be collected for quality improvement and educational research. No grades will be affected. You may decline without penalty.",
+  "anonymize_student_id": true,
+  "collect_answer_change": true,
+  "consent_title": "Research Consent",
+  "irb_status": "Pending",
+  "irb_reference": "",
+  "irb_docs": [],
+  "anonymization_salt": "a95fd23cf5d978a17ce6c4cb67552b79",
+  "retention_months": 24,
+  "retention_mode": "24 months"
+}

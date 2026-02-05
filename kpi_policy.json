@@ -1,0 +1,8 @@
+{
+  "total_score": true,
+  "domain_profile": true,
+  "nclex_score": true,
+  "time_to_completion": true,
+  "unsafe_flags": true,
+  "attempts_per_case": true
+}

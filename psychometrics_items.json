@@ -1,0 +1,587 @@
+{
+  "generated_at": "2026-01-13 02:11:26",
+  "min_attempts_per_item": 2,
+  "min_items_intersection": 2,
+  "rows": [
+    {
+      "qid": "adult_htn_emerg_01-Q001",
+      "n": 9,
+      "difficulty_index_p": 0.1111,
+      "discrimination_r": 0.1843,
+      "type": "mcq",
+      "designed_difficulty": "easy",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q002",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "mcq",
+      "designed_difficulty": "easy",
+      "client_need": "Physiological Integrity: Physiological Adaptation",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q003",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "mcq",
+      "designed_difficulty": "easy",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q004",
+      "n": 9,
+      "difficulty_index_p": 0.1111,
+      "discrimination_r": 0.1843,
+      "type": "mcq",
+      "designed_difficulty": "easy",
+      "client_need": "Safe and Effective Care Environment: Management of Care",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q005",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "mcq",
+      "designed_difficulty": "easy",
+      "client_need": "Physiological Integrity: Physiological Adaptation",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q006",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "mcq",
+      "designed_difficulty": "easy",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q007",
+      "n": 9,
+      "difficulty_index_p": 0.6667,
+      "discrimination_r": 0.7746,
+      "type": "mcq",
+      "designed_difficulty": "easy",
+      "client_need": "Safe and Effective Care Environment: Safety and Infection Control",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q008",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "mcq",
+      "designed_difficulty": "easy",
+      "client_need": "Health Promotion and Maintenance",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q009",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "mcq",
+      "designed_difficulty": "easy",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q010",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "mcq",
+      "designed_difficulty": "easy",
+      "client_need": "Safe and Effective Care Environment: Management of Care",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q011",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "mcq",
+      "designed_difficulty": "medium",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q012",
+      "n": 9,
+      "difficulty_index_p": 0.7778,
+      "discrimination_r": 0.9504,
+      "type": "mcq",
+      "designed_difficulty": "medium",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q013",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "mcq",
+      "designed_difficulty": "medium",
+      "client_need": "Physiological Integrity: Physiological Adaptation",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q014",
+      "n": 9,
+      "difficulty_index_p": 0.7778,
+      "discrimination_r": 0.9504,
+      "type": "mcq",
+      "designed_difficulty": "medium",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q015",
+      "n": 9,
+      "difficulty_index_p": 0.7778,
+      "discrimination_r": 0.9504,
+      "type": "mcq",
+      "designed_difficulty": "medium",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q016",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "mcq",
+      "designed_difficulty": "medium",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q017",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "mcq",
+      "designed_difficulty": "medium",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q018",
+      "n": 9,
+      "difficulty_index_p": 0.7778,
+      "discrimination_r": 0.9504,
+      "type": "mcq",
+      "designed_difficulty": "medium",
+      "client_need": "Physiological Integrity: Pharmacological and Parenteral Therapies",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q019",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "sata",
+      "designed_difficulty": "medium",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q020",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "sata",
+      "designed_difficulty": "medium",
+      "client_need": "Health Promotion and Maintenance",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q021",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "sata",
+      "designed_difficulty": "hard",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q022",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "sata",
+      "designed_difficulty": "hard",
+      "client_need": "Physiological Integrity: Pharmacological and Parenteral Therapies",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q023",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "ordered_response",
+      "designed_difficulty": "hard",
+      "client_need": "Safe and Effective Care Environment: Management of Care",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q024",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "ordered_response",
+      "designed_difficulty": "hard",
+      "client_need": "Physiological Integrity: Pharmacological and Parenteral Therapies",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q025",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "cloze",
+      "designed_difficulty": "hard",
+      "client_need": "Physiological Integrity: Pharmacological and Parenteral Therapies",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q026",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "cloze",
+      "designed_difficulty": "hard",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q027",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "matrix",
+      "designed_difficulty": "hard",
+      "client_need": "Physiological Integrity: Pharmacological and Parenteral Therapies",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q028",
+      "n": 9,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "matrix",
+      "designed_difficulty": "hard",
+      "client_need": "Physiological Integrity: Reduction of Risk Potential",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q01",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q02",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q03",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q04",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q05",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q06",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q07",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q08",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q09",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q10",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q11",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q12",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q13",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q14",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q15",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q16",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q17",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q18",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q19",
+      "n": 3,
+      "difficulty_index_p": 1.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q20",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q21",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q22",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q23",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q24",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q25",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q26",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q27",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q28",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q29",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    },
+    {
+      "qid": "adult_htn_emerg_01-Q30",
+      "n": 3,
+      "difficulty_index_p": 0.0,
+      "discrimination_r": null,
+      "type": "",
+      "designed_difficulty": "",
+      "client_need": "",
+      "case_id": "adult_htn_emerg_01"
+    }
+  ]
+}

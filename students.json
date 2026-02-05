@@ -1,0 +1,36 @@
+{
+  "students": [
+    {
+      "username": "student006",
+      "display_name": "Student 006",
+      "student_id": "006",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "e3c68ed06cdd8a54d85f2f78453f297a51a340a0861e2bc41e29033ccd6fe71c",
+      "created_at": "2026-01-12T23:33:14.602643"
+    },
+    {
+      "username": "student007",
+      "display_name": "Student 007",
+      "student_id": "007",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "02790ff17210a1d2cf4796891d74e7eda35f55b4cc5e99a045e898209db87b2f",
+      "created_at": "2026-01-12T23:33:14.602643"
+    },
+    {
+      "username": "student010",
+      "display_name": "Student 010",
+      "student_id": "010",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "b202d29316776aec6289807faefad70c7f072920b35c9e2d557b80e4e75d3c65",
+      "created_at": "2026-01-13T06:36:47.241705"
+    },
+    {
+      "username": "student001",
+      "display_name": "Student 001",
+      "student_id": "001",
+      "cohort": "Adult Nursing Y2",
+      "password_sha256": "e6cb826ad37be1891e5bc84646ff111f46e8b499b2a50856867072e2632476d0",
+      "created_at": "2026-02-01T22:11:58.354627"
+    }
+  ]
+}
